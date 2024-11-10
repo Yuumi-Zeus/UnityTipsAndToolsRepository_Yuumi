@@ -67,15 +67,19 @@ crashlytics-build.properties
 # Custom
 
 # How To Serialize Interfaces
-How To Serialize Interfaces/UserSettings/
-How To Serialize Interfaces/[Tt]emp/
-How To Serialize Interfaces/[Ll]ibrary/
-How To Serialize Interfaces/[Ll]ogs/
-How To Serialize Interfaces/[Oo]bj/
-How To Serialize Interfaces/[Bb]uild/
-How To Serialize Interfaces/[Bb]uilds/
-How To Serialize Interfaces/[Mm]emoryCaptures/
 
-How To Serialize Interfaces/Assets/Plugins/Sirenix/
+UnityProgrammingTips/Library/
 
-How To Serialize Interfaces/Assets/Plugins/Sirenix.meta
+UnityProgrammingTips/Logs/
+
+UnityProgrammingTips/Temp/
+
+UnityProgrammingTips/UserSettings/
+
+UnityProgrammingTips/Assets/Plugins/Sirenix/
+
+UnityProgrammingTips/Assets/Plugins/Sirenix.meta
+
+UnityProgrammingTips/Assets/ConsolePro/
+
+UnityProgrammingTips/Assets/ConsolePro.meta

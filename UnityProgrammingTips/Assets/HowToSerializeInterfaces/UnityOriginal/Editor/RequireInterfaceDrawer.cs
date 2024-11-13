@@ -5,7 +5,7 @@ using Object = UnityEngine.Object;
 
 namespace HowToSerializeInterfaces.UnityOriginal.Editor
 {
-    [CustomPropertyDrawer(typeof(RequireInterfaceAttribute))]
+    // [CustomPropertyDrawer(typeof(RequireInterfaceAttribute))]
     public class RequireInterfaceDrawer : PropertyDrawer
     {
         RequireInterfaceAttribute RequireInterfaceAttribute => (RequireInterfaceAttribute)attribute;

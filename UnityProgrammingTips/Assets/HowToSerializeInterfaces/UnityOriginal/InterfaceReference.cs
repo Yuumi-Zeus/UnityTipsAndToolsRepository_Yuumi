@@ -9,14 +9,14 @@ namespace HowToSerializeInterfaces.UnityOriginal
     {
         [SerializeField] [HideInInspector] TObject sourceValue;
 
-        /// <summary>
-        /// 特殊情况用于外界设置值
-        /// </summary>
-        public TObject SourceValue
-        {
-            get => sourceValue;
-            set => sourceValue = value;
-        }
+        // /// <summary>
+        // /// 特殊情况用于外界设置值
+        // /// </summary>
+        // public TObject SourceValue
+        // {
+        //     get => sourceValue;
+        //     set => sourceValue = value;
+        // }
 
         /// <summary>
         /// 通常外界只能通过 Value 属性与源值 sourceValue 进行交互

@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using HowToSerializeInterfaces.UnityOriginal;
 using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace HowToSerializeInterfaces.Example
 {
-    public class SerializeReferenceExample : MonoBehaviour
+    public class SerializeReferenceExample : SerializedMonoBehaviour
     {
         [RequireInterface(typeof(IDamageable))]
         public MonoBehaviour[] referenceWithAttributeArray;
@@ -28,7 +29,7 @@ namespace HowToSerializeInterfaces.Example
         [RequireInterface(typeof(IDamageable))]
         public ScriptableObject attributeRestrictToScriptableObject;
 
-        [SerializeReference] public IDamageable damageable;
+        [OdinSerialize] public IDamageable damageable;
 
         void Start()
         {

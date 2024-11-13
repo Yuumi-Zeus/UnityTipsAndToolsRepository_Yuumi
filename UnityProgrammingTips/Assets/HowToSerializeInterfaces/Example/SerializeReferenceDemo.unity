@@ -282,7 +282,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7266549a696742beba40a0b17ac0dec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: damageable
+      Entry: 6
+      Data: 
   referenceWithAttributeArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   referenceArray: []
   referenceWithAttributeList: []
@@ -290,7 +305,7 @@ MonoBehaviour:
   referenceRestrictedToScriptableObject:
     sourceValue: {fileID: 11400000, guid: 4749ca1fa18e315459c8190248bb7194, type: 2}
   referenceRestrictedToMonoBehaviour:
-    sourceValue: {fileID: 0}
+    sourceValue: {fileID: 501934339}
   damageableReference:
     sourceValue: {fileID: 0}
   attributeRestrictToMono: {fileID: 0}

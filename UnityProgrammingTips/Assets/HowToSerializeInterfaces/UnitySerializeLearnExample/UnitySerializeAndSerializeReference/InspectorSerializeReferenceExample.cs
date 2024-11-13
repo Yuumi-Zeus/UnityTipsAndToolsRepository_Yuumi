@@ -2,7 +2,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace HowToSerializeInterfaces.UnitySerializeDemo.UnitySerializeAndSerializeReference
+namespace HowToSerializeInterfaces.UnitySerializeLearnExample.UnitySerializeAndSerializeReference
 {
     public class InspectorSerializeReferenceExample : MonoBehaviour
     {

@@ -25,3 +25,7 @@ GitHub链接：[Unity Tips And Tools Repository](https://github.com/Yuumi-Zeus/U
 实现了一个自定义类 `OdinInterfaceReference<TInterface,TObject> where TInterface : class where TObject : UnityEngine.Object`
 
 可以快捷地使用接口类型的对象，也可以直接获取原类型的对象
+
+---
+
+Unity 原生版本的请查看原版 Github 链接，已在本项目中移除

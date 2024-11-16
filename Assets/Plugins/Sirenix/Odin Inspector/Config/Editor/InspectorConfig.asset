@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1137305049, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: InspectorConfig
+  m_EditorClassIdentifier: 
+  enableOdinInInspector: 1
+  defaultEditorBehaviour: 11
+  processMouseMoveInInspector: 1
+  drawingConfig:
+    configs:
+    - DrawnTypeName: HowToSerializeInterfaces.Example.DamageableAsset, Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: HowToSerializeInterfaces.Example.DamageableComponent, Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: HowToSerializeInterfaces.Example.SerializeReferenceExample,
+        Assembly-CSharp
+      EditorTypeName: 
+    - DrawnTypeName: HowToSerializeInterfaces.UnitySerializeDemo.Scripts.SerializeReferencePolymorphismExample,
+        Assembly-CSharp
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: HowToSerializeInterfaces.UnitySerializeDemo.SerializeReferencePolymorphismExample,
+        Assembly-CSharp
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: HowToSerializeInterfaces.UnitySerializeDemo.InspectorPriority.InspectorDeserializeExample,
+        Assembly-CSharp
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor

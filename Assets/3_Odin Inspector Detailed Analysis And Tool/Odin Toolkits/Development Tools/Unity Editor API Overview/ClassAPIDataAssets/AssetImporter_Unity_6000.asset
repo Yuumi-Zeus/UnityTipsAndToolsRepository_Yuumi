@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: AssetImporter_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEditor.AssetImporter, UnityEditor.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: AssetImporter
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 0
+    memberName: setUserData(string value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setAssetBundleName(string value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setAssetBundleVariant(string value)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetImportLog(string path)
+    returnType: ImportLog
+  - isStatic: 0
+    memberName: SetAssetBundleNameAndVariant(string assetBundleName, string assetBundleVariant)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetAtPath(string path)
+    returnType: AssetImporter
+  - isStatic: 0
+    memberName: SaveAndReimport()
+    returnType: Void
+  - isStatic: 0
+    memberName: AddRemap(AssetImporter.SourceAssetIdentifier identifier, Object externalObject)
+    returnType: Void
+  - isStatic: 0
+    memberName: RemoveRemap(AssetImporter.SourceAssetIdentifier identifier)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetExternalObjectMap()
+    returnType: Dictionary<AssetImporter.SourceAssetIdentifier, Object>
+  - isStatic: 0
+    memberName: SupportsRemappedAssetType(Type type)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetInstanceID()
+    returnType: int
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: Equals(Object other)
+    returnType: bool
+  - isStatic: 0
+    memberName: setName(string value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setHideFlags(HideFlags value)
+    returnType: Void
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  backendPropertyDataList:
+  - isStatic: 0
+    memberName: assetPath
+  - isStatic: 0
+    memberName: importSettingsMissing
+  - isStatic: 0
+    memberName: assetTimeStamp
+  - isStatic: 0
+    memberName: userData
+  - isStatic: 0
+    memberName: assetBundleName
+  - isStatic: 0
+    memberName: assetBundleVariant
+  - isStatic: 0
+    memberName: name
+  - isStatic: 0
+    memberName: hideFlags
+  backendFieldDataList: []
+  backendEventDataList: []

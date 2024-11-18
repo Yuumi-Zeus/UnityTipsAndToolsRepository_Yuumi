@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: GUI_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEngine.GUI, UnityEngine.IMGUIModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: GUI
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: setColor(Color value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setBackgroundColor(Color value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setContentColor(Color value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setChanged(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setEnabled(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setDepth(int value)
+    returnType: Void
+  - isStatic: 1
+    memberName: SetNextControlName(string name)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetNameOfFocusedControl()
+    returnType: string
+  - isStatic: 1
+    memberName: FocusControl(string name)
+    returnType: Void
+  - isStatic: 1
+    memberName: DragWindow(Rect position)
+    returnType: Void
+  - isStatic: 1
+    memberName: BringWindowToFront(int windowID)
+    returnType: Void
+  - isStatic: 1
+    memberName: BringWindowToBack(int windowID)
+    returnType: Void
+  - isStatic: 1
+    memberName: FocusWindow(int windowID)
+    returnType: Void
+  - isStatic: 1
+    memberName: UnfocusWindow()
+    returnType: Void
+  - isStatic: 1
+    memberName: setSkin(GUISkin value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setMatrix(Matrix4x4 value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setTooltip(string value)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Rect position, string text)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Rect position, Texture image)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Rect position, GUIContent content)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Rect position, string text, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Rect position, Texture image, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Rect position, GUIContent content, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image, ScaleMode scaleMode)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool
+      alphaBlend)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool
+      alphaBlend, float imageAspect)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool
+      alphaBlend, float imageAspect, Color color, float borderWidth, float borderRadius)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool
+      alphaBlend, float imageAspect, Color color, Vector4 borderWidths, float borderRadius)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool
+      alphaBlend, float imageAspect, Color color, Vector4 borderWidths, Vector4 borderRadiuses)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureWithTexCoords(Rect position, Texture image, Rect texCoords)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureWithTexCoords(Rect position, Texture image, Rect texCoords,
+      bool alphaBlend)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Rect position, string text)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Rect position, Texture image)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Rect position, GUIContent content)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Rect position, string text, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Rect position, Texture image, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Rect position, GUIContent content, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: Button(Rect position, string text)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(Rect position, Texture image)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(Rect position, GUIContent content)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(Rect position, string text, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(Rect position, Texture image, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(Rect position, GUIContent content, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Rect position, string text)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Rect position, Texture image)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Rect position, GUIContent content)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Rect position, string text, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Rect position, Texture image, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Rect position, GUIContent content, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: TextField(Rect position, string text)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(Rect position, string text, int maxLength)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(Rect position, string text, GUIStyle style)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(Rect position, string text, int maxLength, GUIStyle style)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(Rect position, string password, char maskChar)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(Rect position, string password, char maskChar, int
+      maxLength)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(Rect position, string password, char maskChar, GUIStyle
+      style)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(Rect position, string password, char maskChar, int
+      maxLength, GUIStyle style)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(Rect position, string text)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(Rect position, string text, int maxLength)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(Rect position, string text, GUIStyle style)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(Rect position, string text, int maxLength, GUIStyle style)
+    returnType: string
+  - isStatic: 1
+    memberName: Toggle(Rect position, bool value, string text)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(Rect position, bool value, Texture image)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(Rect position, bool value, GUIContent content)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(Rect position, bool value, string text, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(Rect position, bool value, Texture image, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(Rect position, bool value, GUIContent content, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(Rect position, int id, bool value, GUIContent content, GUIStyle
+      style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, string[] texts)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, Texture[] images)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, GUIContent[] contents)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, string[] texts, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, Texture[] images, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, GUIContent[] contents, GUIStyle
+      style)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(Rect position, int selected, GUIContent[] contents, GUIStyle
+      style, GUI.ToolbarButtonSize buttonSize)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(Rect position, int selected, string[] texts, int xCount)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(Rect position, int selected, Texture[] images, int
+      xCount)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(Rect position, int selected, GUIContent[] content,
+      int xCount)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(Rect position, int selected, string[] texts, int xCount,
+      GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(Rect position, int selected, Texture[] images, int
+      xCount, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(Rect position, int selected, GUIContent[] contents,
+      int xCount, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: HorizontalSlider(Rect position, float value, float leftValue, float
+      rightValue)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalSlider(Rect position, float value, float leftValue, float
+      rightValue, GUIStyle slider, GUIStyle thumb)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalSlider(Rect position, float value, float leftValue, float
+      rightValue, GUIStyle slider, GUIStyle thumb, GUIStyle thumbExtent)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalSlider(Rect position, float value, float topValue, float
+      bottomValue)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalSlider(Rect position, float value, float topValue, float
+      bottomValue, GUIStyle slider, GUIStyle thumb)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalSlider(Rect position, float value, float topValue, float
+      bottomValue, GUIStyle slider, GUIStyle thumb, GUIStyle thumbExtent)
+    returnType: float
+  - isStatic: 1
+    memberName: Slider(Rect position, float value, float size, float start, float
+      end, GUIStyle slider, GUIStyle thumb, bool horiz, int id, GUIStyle thumbExtent)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalScrollbar(Rect position, float value, float size, float
+      leftValue, float rightValue)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalScrollbar(Rect position, float value, float size, float
+      leftValue, float rightValue, GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalScrollbar(Rect position, float value, float size, float topValue,
+      float bottomValue)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalScrollbar(Rect position, float value, float size, float topValue,
+      float bottomValue, GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: BeginClip(Rect position, Vector2 scrollOffset, Vector2 renderOffset,
+      bool resetOffset)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, string text)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, Texture image)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, GUIContent content)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, string text, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, Texture image, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginGroup(Rect position, GUIContent content, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginClip(Rect position)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndClip()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect,
+      bool alwaysShowHorizontal, bool alwaysShowVertical)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect,
+      GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect,
+      bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar,
+      GUIStyle verticalScrollbar)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: EndScrollView()
+    returnType: Void
+  - isStatic: 1
+    memberName: EndScrollView(bool handleScrollWheel)
+    returnType: Void
+  - isStatic: 1
+    memberName: ScrollTo(Rect position)
+    returnType: Void
+  - isStatic: 1
+    memberName: ScrollTowards(Rect position, float maxDelta)
+    returnType: bool
+  - isStatic: 1
+    memberName: Window(int id, Rect clientRect, GUI.WindowFunction func, string text)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect clientRect, GUI.WindowFunction func, Texture
+      image)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect clientRect, GUI.WindowFunction func, GUIContent
+      content)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect clientRect, GUI.WindowFunction func, string text,
+      GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect clientRect, GUI.WindowFunction func, Texture
+      image, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect clientRect, GUI.WindowFunction func, GUIContent
+      title, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: ModalWindow(int id, Rect clientRect, GUI.WindowFunction func, string
+      text)
+    returnType: Rect
+  - isStatic: 1
+    memberName: ModalWindow(int id, Rect clientRect, GUI.WindowFunction func, Texture
+      image)
+    returnType: Rect
+  - isStatic: 1
+    memberName: ModalWindow(int id, Rect clientRect, GUI.WindowFunction func, GUIContent
+      content)
+    returnType: Rect
+  - isStatic: 1
+    memberName: ModalWindow(int id, Rect clientRect, GUI.WindowFunction func, string
+      text, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: ModalWindow(int id, Rect clientRect, GUI.WindowFunction func, Texture
+      image, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: ModalWindow(int id, Rect clientRect, GUI.WindowFunction func, GUIContent
+      content, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: DragWindow()
+    returnType: Void
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: color
+  - isStatic: 1
+    memberName: backgroundColor
+  - isStatic: 1
+    memberName: contentColor
+  - isStatic: 1
+    memberName: changed
+  - isStatic: 1
+    memberName: enabled
+  - isStatic: 1
+    memberName: depth
+  - isStatic: 1
+    memberName: skin
+  - isStatic: 1
+    memberName: matrix
+  - isStatic: 1
+    memberName: tooltip
+  backendFieldDataList: []
+  backendEventDataList: []

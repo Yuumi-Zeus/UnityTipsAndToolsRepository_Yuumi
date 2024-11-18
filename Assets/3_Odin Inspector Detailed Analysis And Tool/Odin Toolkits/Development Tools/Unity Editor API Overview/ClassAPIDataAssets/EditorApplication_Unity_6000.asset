@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: EditorApplication_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEditor.EditorApplication, UnityEditor.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: EditorApplication
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: LoadLevelInPlayMode(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: LoadLevelAdditiveInPlayMode(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: LoadLevelAsyncInPlayMode(string path)
+    returnType: AsyncOperation
+  - isStatic: 1
+    memberName: LoadLevelAdditiveAsyncInPlayMode(string path)
+    returnType: AsyncOperation
+  - isStatic: 1
+    memberName: OpenProject(string projectPath, string[] args)
+    returnType: Void
+  - isStatic: 1
+    memberName: SaveAssets()
+    returnType: Void
+  - isStatic: 1
+    memberName: setIsPlaying(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: EnterPlaymode()
+    returnType: Void
+  - isStatic: 1
+    memberName: ExitPlaymode()
+    returnType: Void
+  - isStatic: 1
+    memberName: Step()
+    returnType: Void
+  - isStatic: 1
+    memberName: setIsPaused(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: LockReloadAssemblies()
+    returnType: Void
+  - isStatic: 1
+    memberName: UnlockReloadAssemblies()
+    returnType: Void
+  - isStatic: 1
+    memberName: ExecuteMenuItem(string menuItemPath)
+    returnType: bool
+  - isStatic: 1
+    memberName: SetTemporaryProjectKeepPath(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: Exit(int returnValue)
+    returnType: Void
+  - isStatic: 1
+    memberName: QueuePlayerLoopUpdate()
+    returnType: Void
+  - isStatic: 1
+    memberName: UpdateMainWindowTitle()
+    returnType: Void
+  - isStatic: 1
+    memberName: Beep()
+    returnType: Void
+  - isStatic: 1
+    memberName: RepaintProjectWindow()
+    returnType: Void
+  - isStatic: 1
+    memberName: RepaintAnimationWindow()
+    returnType: Void
+  - isStatic: 1
+    memberName: RepaintHierarchyWindow()
+    returnType: Void
+  - isStatic: 1
+    memberName: DirtyHierarchyWindowSorting()
+    returnType: Void
+  - isStatic: 1
+    memberName: addWantsToQuit(Func<bool> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeWantsToQuit(Func<bool> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addQuitting(Action value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeQuitting(Action value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addHierarchyChanged(Action value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeHierarchyChanged(Action value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addProjectChanged(Action value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeProjectChanged(Action value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addPauseStateChanged(Action<PauseState> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removePauseStateChanged(Action<PauseState> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addPlayModeStateChanged(Action<PlayModeStateChange> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removePlayModeStateChanged(Action<PlayModeStateChange> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addFocusChanged(Action<bool> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeFocusChanged(Action<bool> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addUpdateMainWindowTitle(Action<ApplicationTitleDescriptor> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeUpdateMainWindowTitle(Action<ApplicationTitleDescriptor> value)
+    returnType: Void
+  - isStatic: 1
+    memberName: NewScene()
+    returnType: Void
+  - isStatic: 1
+    memberName: NewEmptyScene()
+    returnType: Void
+  - isStatic: 1
+    memberName: OpenScene(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenSceneAdditive(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: SaveScene()
+    returnType: bool
+  - isStatic: 1
+    memberName: SaveScene(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: SaveScene(string path, bool saveAsCopy)
+    returnType: bool
+  - isStatic: 1
+    memberName: SaveCurrentSceneIfUserWantsTo()
+    returnType: bool
+  - isStatic: 1
+    memberName: MarkSceneDirty()
+    returnType: Void
+  - isStatic: 1
+    memberName: setCurrentScene(string value)
+    returnType: Void
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: isPlaying
+  - isStatic: 1
+    memberName: isPlayingOrWillChangePlaymode
+  - isStatic: 1
+    memberName: isPaused
+  - isStatic: 1
+    memberName: isCompiling
+  - isStatic: 1
+    memberName: isUpdating
+  - isStatic: 1
+    memberName: isRemoteConnected
+  - isStatic: 1
+    memberName: scriptingRuntimeVersion
+  - isStatic: 1
+    memberName: applicationContentsPath
+  - isStatic: 1
+    memberName: applicationPath
+  - isStatic: 1
+    memberName: isCreateFromTemplate
+  - isStatic: 1
+    memberName: isTemporaryProject
+  - isStatic: 1
+    memberName: timeSinceStartup
+  - isStatic: 1
+    memberName: isFocused
+  - isStatic: 1
+    memberName: isSceneDirty
+  - isStatic: 1
+    memberName: currentScene
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: projectWindowItemOnGUI
+  - isStatic: 1
+    memberName: projectWindowItemInstanceOnGUI
+  - isStatic: 1
+    memberName: hierarchyWindowItemOnGUI
+  - isStatic: 1
+    memberName: update
+  - isStatic: 1
+    memberName: delayCall
+  - isStatic: 1
+    memberName: hierarchyWindowChanged
+  - isStatic: 1
+    memberName: projectWindowChanged
+  - isStatic: 1
+    memberName: searchChanged
+  - isStatic: 1
+    memberName: modifierKeysChanged
+  - isStatic: 1
+    memberName: playmodeStateChanged
+  - isStatic: 1
+    memberName: contextualPropertyMenu
+  backendEventDataList:
+  - isStatic: 0
+    memberName: wantsToQuit
+    returnType: 
+  - isStatic: 0
+    memberName: quitting
+    returnType: 
+  - isStatic: 0
+    memberName: hierarchyChanged
+    returnType: 
+  - isStatic: 0
+    memberName: projectChanged
+    returnType: 
+  - isStatic: 0
+    memberName: pauseStateChanged
+    returnType: 
+  - isStatic: 0
+    memberName: playModeStateChanged
+    returnType: 
+  - isStatic: 0
+    memberName: focusChanged
+    returnType: 
+  - isStatic: 0
+    memberName: updateMainWindowTitle
+    returnType: 

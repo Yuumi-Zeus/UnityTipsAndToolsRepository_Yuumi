@@ -1,5 +1,5 @@
 ﻿using System;
-using _3_Odin_Inspector_Detailed_Analysis_And_Tool.Odin_Toolkits.Common_Utilities;
+using Odin_Toolkits.Common_Utilities;
 using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities;
 using Sirenix.Utilities.Editor;

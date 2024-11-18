@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: SirenixGUIStyles_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.Utilities.Editor.SirenixGUIStyles, Sirenix.Utilities.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: SirenixGUIStyles
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: setListItemColorEven(Color value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setListItemColorOdd(Color value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setToolbarBackground(GUIStyle value)
+    returnType: Void
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: DefaultSelectedMenuTreeColor
+  - isStatic: 1
+    memberName: DefaultSelectedMenuTreeInactiveColor
+  - isStatic: 1
+    memberName: ListItemEven
+  - isStatic: 1
+    memberName: ListItemOdd
+  - isStatic: 1
+    memberName: ListItemColorEven
+  - isStatic: 1
+    memberName: ListItemColorOdd
+  - isStatic: 1
+    memberName: TagButton
+  - isStatic: 1
+    memberName: BoldLabel
+  - isStatic: 1
+    memberName: BoldLabelCentered
+  - isStatic: 1
+    memberName: BoxContainer
+  - isStatic: 1
+    memberName: Popup
+  - isStatic: 1
+    memberName: BoxHeaderStyle
+  - isStatic: 1
+    memberName: Button
+  - isStatic: 1
+    memberName: ButtonSelected
+  - isStatic: 1
+    memberName: ButtonLeft
+  - isStatic: 1
+    memberName: ButtonLeftSelected
+  - isStatic: 1
+    memberName: ButtonMid
+  - isStatic: 1
+    memberName: ButtonMidSelected
+  - isStatic: 1
+    memberName: ButtonRight
+  - isStatic: 1
+    memberName: ButtonRightSelected
+  - isStatic: 1
+    memberName: DropDownMiniButton
+  - isStatic: 1
+    memberName: MiniButton
+  - isStatic: 1
+    memberName: MiniButtonSelected
+  - isStatic: 1
+    memberName: MiniButtonLeft
+  - isStatic: 1
+    memberName: MiniButtonLeftSelected
+  - isStatic: 1
+    memberName: MiniButtonMid
+  - isStatic: 1
+    memberName: MiniButtonMidSelected
+  - isStatic: 1
+    memberName: MiniButtonRight
+  - isStatic: 1
+    memberName: MiniButtonRightSelected
+  - isStatic: 1
+    memberName: ColorFieldBackground
+  - isStatic: 1
+    memberName: Foldout
+  - isStatic: 1
+    memberName: IconButton
+  - isStatic: 1
+    memberName: Label
+  - isStatic: 1
+    memberName: HighlightedLabel
+  - isStatic: 1
+    memberName: WhiteLabel
+  - isStatic: 1
+    memberName: BlackLabel
+  - isStatic: 1
+    memberName: LabelCentered
+  - isStatic: 1
+    memberName: RichTextLabelCentered
+  - isStatic: 1
+    memberName: WhiteLabelCentered
+  - isStatic: 1
+    memberName: BlackLabelCentered
+  - isStatic: 1
+    memberName: MiniLabelCentered
+  - isStatic: 1
+    memberName: LeftAlignedCenteredLabel
+  - isStatic: 1
+    memberName: LeftAlignedGreyMiniLabel
+  - isStatic: 1
+    memberName: LeftAlignedGreyLabel
+  - isStatic: 1
+    memberName: CenteredGreyMiniLabel
+  - isStatic: 1
+    memberName: LeftAlignedWhiteMiniLabel
+  - isStatic: 1
+    memberName: CenteredWhiteMiniLabel
+  - isStatic: 1
+    memberName: CenteredBlackMiniLabel
+  - isStatic: 1
+    memberName: ListItem
+  - isStatic: 1
+    memberName: MenuButtonBackground
+  - isStatic: 1
+    memberName: None
+  - isStatic: 1
+    memberName: OdinEditorWrapper
+  - isStatic: 1
+    memberName: PaddingLessBox
+  - isStatic: 1
+    memberName: ContentPadding
+  - isStatic: 1
+    memberName: PropertyPadding
+  - isStatic: 1
+    memberName: PropertyMargin
+  - isStatic: 1
+    memberName: RichTextLabel
+  - isStatic: 1
+    memberName: RightAlignedGreyMiniLabel
+  - isStatic: 1
+    memberName: RightAlignedWhiteMiniLabel
+  - isStatic: 1
+    memberName: SectionHeader
+  - isStatic: 1
+    memberName: SectionHeaderCentered
+  - isStatic: 1
+    memberName: ToggleGroupBackground
+  - isStatic: 1
+    memberName: ToggleGroupCheckbox
+  - isStatic: 1
+    memberName: ToggleGroupPadding
+  - isStatic: 1
+    memberName: ToggleGroupTitleBg
+  - isStatic: 1
+    memberName: ToolbarBackground
+  - isStatic: 1
+    memberName: ToolbarButton
+  - isStatic: 1
+    memberName: ToolbarButtonSelected
+  - isStatic: 1
+    memberName: ToolbarSeachCancelButton
+  - isStatic: 1
+    memberName: ToolbarSearchCancelButton
+  - isStatic: 1
+    memberName: ToolbarSeachTextField
+  - isStatic: 1
+    memberName: ToolbarSearchTextField
+  - isStatic: 1
+    memberName: ToolbarTab
+  - isStatic: 1
+    memberName: Title
+  - isStatic: 1
+    memberName: BoldTitle
+  - isStatic: 1
+    memberName: BoldTitleCentered
+  - isStatic: 1
+    memberName: BoldTitleRight
+  - isStatic: 1
+    memberName: TitleCentered
+  - isStatic: 1
+    memberName: TitleRight
+  - isStatic: 1
+    memberName: Subtitle
+  - isStatic: 1
+    memberName: SubtitleCentered
+  - isStatic: 1
+    memberName: SubtitleRight
+  - isStatic: 1
+    memberName: MessageBox
+  - isStatic: 1
+    memberName: DetailedMessageBox
+  - isStatic: 1
+    memberName: MultiLineWhiteLabel
+  - isStatic: 1
+    memberName: MultiLineLabel
+  - isStatic: 1
+    memberName: MultiLineCenteredLabel
+  - isStatic: 1
+    memberName: CenteredTextField
+  - isStatic: 1
+    memberName: BottomBoxPadding
+  - isStatic: 1
+    memberName: PaneOptions
+  - isStatic: 1
+    memberName: ContainerOuterShadow
+  - isStatic: 1
+    memberName: ContainerOuterShadowGlow
+  - isStatic: 1
+    memberName: ModuleHeader
+  - isStatic: 1
+    memberName: CardStyle
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: ValidatorGreen
+  - isStatic: 1
+    memberName: InspectorOrange
+  - isStatic: 1
+    memberName: SerializerYellow
+  - isStatic: 1
+    memberName: GreenValidColor
+  - isStatic: 1
+    memberName: RedErrorColor
+  - isStatic: 1
+    memberName: YellowWarningColor
+  - isStatic: 1
+    memberName: BorderColor
+  - isStatic: 1
+    memberName: BoxBackgroundColor
+  - isStatic: 1
+    memberName: DarkEditorBackground
+  - isStatic: 1
+    memberName: EditorWindowBackgroundColor
+  - isStatic: 1
+    memberName: MenuBackgroundColor
+  - isStatic: 1
+    memberName: HeaderBoxBackgroundColor
+  - isStatic: 1
+    memberName: HighlightedButtonColor
+  - isStatic: 1
+    memberName: HighlightedTextColor
+  - isStatic: 1
+    memberName: HighlightPropertyColor
+  - isStatic: 1
+    memberName: ListItemColorHoverEven
+  - isStatic: 1
+    memberName: ListItemColorHoverOdd
+  - isStatic: 1
+    memberName: ListItemDragBg
+  - isStatic: 1
+    memberName: ListItemDragBgColor
+  - isStatic: 1
+    memberName: ColumnTitleBg
+  - isStatic: 1
+    memberName: DefaultSelectedMenuTreeColorDarkSkin
+  - isStatic: 1
+    memberName: DefaultSelectedInactiveMenuTreeColorDarkSkin
+  - isStatic: 1
+    memberName: DefaultSelectedMenuTreeColorLightSkin
+  - isStatic: 1
+    memberName: DefaultSelectedInactiveMenuTreeColorLightSkin
+  - isStatic: 1
+    memberName: MouseOverBgOverlayColor
+  - isStatic: 1
+    memberName: MenuButtonActiveBgColor
+  - isStatic: 1
+    memberName: MenuButtonBorderColor
+  - isStatic: 1
+    memberName: MenuButtonColor
+  - isStatic: 1
+    memberName: MenuButtonHoverColor
+  - isStatic: 1
+    memberName: LightBorderColor
+  - isStatic: 1
+    memberName: Temporary
+  - isStatic: 1
+    memberName: SDFIconButtonLabelStyle
+  backendEventDataList: []

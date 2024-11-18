@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: GUITimeHelper_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.Utilities.Editor.GUITimeHelper, Sirenix.Utilities.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: GUITimeHelper
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: RepaintDeltaTime
+  - isStatic: 1
+    memberName: RepaintFPS
+  - isStatic: 1
+    memberName: LayoutDeltaTime
+  - isStatic: 1
+    memberName: LayoutFPS
+  backendFieldDataList: []
+  backendEventDataList: []

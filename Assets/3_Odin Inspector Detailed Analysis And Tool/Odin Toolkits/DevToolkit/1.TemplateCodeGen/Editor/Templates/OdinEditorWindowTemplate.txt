@@ -1,0 +1,46 @@
+﻿using System.Collections.Generic;
+using Sirenix.OdinInspector.Editor;
+using Sirenix.Utilities;
+using Sirenix.Utilities.Editor;
+using UnityEditor;
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+    public class #CLASSNAME# : OdinEditorWindow
+    {
+        [MenuItem("#MENUITEMPATH#", priority = #PRIORITY#)]
+        static void ShowWindow()
+        {
+            var window = GetWindow<#CLASSNAME#>();
+            window.titleContent = new GUIContent("#CLASSNAME#");
+            window.position = GUIHelper.GetEditorWindowRect().AlignCenter(900, 650);
+            window.Show();
+        }
+
+        protected override IEnumerable<object> GetTargets()
+        {
+            return base.GetTargets();
+        }
+
+        protected override void Initialize()
+        {
+            base.Initialize();
+        }
+
+        protected override void OnBeginDrawEditors()
+        {
+            base.OnBeginDrawEditors();
+        }
+
+        protected override void DrawEditors()
+        {
+            base.DrawEditors();
+        }
+
+        protected override void OnEndDrawEditors()
+        {
+            base.OnEndDrawEditors();
+        }
+    }
+}

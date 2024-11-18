@@ -2,7 +2,7 @@
 
 using System;
 using System.Globalization;
-using _3_Odin_Inspector_Detailed_Analysis_And_Tool.Odin_Toolkits.Common_Utilities;
+using Odin_Toolkits.Common_Utilities;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities;
@@ -10,7 +10,7 @@ using Sirenix.Utilities.Editor;
 using UnityEditor;
 using UnityEngine;
 
-namespace _3_Odin_Inspector_Detailed_Analysis_And_Tool.Odin_Demos_Analysis.Custom_Drawers_Analysis.Scripts
+namespace Odin_Demos_Analysis.Custom_Drawers_Analysis.Scripts
 {
     // Custom data struct, for demonstration.
     [Serializable]

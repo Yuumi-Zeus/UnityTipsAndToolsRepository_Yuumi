@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: GUILayoutUtility_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEngine.GUILayoutUtility, UnityEngine.IMGUIModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: GUILayoutUtility
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: BeginGroup(string GroupName)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndGroup(string groupName)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetRect(GUIContent content, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float width, float height)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float width, float height, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float width, float height, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float width, float height, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight,
+      GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight,
+      GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetLastRect()
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetAspectRect(float aspect)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetAspectRect(float aspect, GUIStyle style)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetAspectRect(float aspect, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetAspectRect(float aspect, GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList: []
+  backendFieldDataList: []
+  backendEventDataList: []

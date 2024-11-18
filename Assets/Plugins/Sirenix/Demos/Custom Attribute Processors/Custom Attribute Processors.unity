@@ -451,7 +451,13 @@ MonoBehaviour:
     Health: 0
     Damage: 0
     Speed: 0
-  ListedMinions: []
+  ListedMinions:
+  - Name: 
+    Id: 
+    Icon: {fileID: 0}
+    Health: 0
+    Damage: 0
+    Speed: 0
 --- !u!1 &2029510889
 GameObject:
   m_ObjectHideFlags: 0

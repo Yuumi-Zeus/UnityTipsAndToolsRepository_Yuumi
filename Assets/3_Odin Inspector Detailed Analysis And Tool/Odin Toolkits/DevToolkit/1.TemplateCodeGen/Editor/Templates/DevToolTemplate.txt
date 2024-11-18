@@ -1,0 +1,30 @@
+﻿using OdinExtension.DevToolkit.Editor;
+
+namespace #NAMESPACE#
+{
+    public class #CLASSNAME# : AbstractDevTool<#CLASSNAME#>
+    {
+        #region 工具配置数据
+
+        public override void ResetData() { }
+
+        protected override string SetUsageTip()
+        {
+            return "使用提示: XXX";
+        }
+
+        #endregion
+
+        #region 预期结果
+
+        #endregion
+
+        #region ShowIf
+
+        #endregion
+        
+        #region 工具执行
+
+        #endregion
+    }
+}

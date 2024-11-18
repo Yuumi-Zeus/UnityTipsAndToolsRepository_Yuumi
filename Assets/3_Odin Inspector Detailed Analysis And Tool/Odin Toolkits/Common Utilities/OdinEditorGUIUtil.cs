@@ -1,8 +1,11 @@
 ﻿using System;
-using UnityEditor;
 using UnityEngine;
 
-namespace _3_Odin_Inspector_Detailed_Analysis_And_Tool.Odin_Toolkits.Common_Utilities
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+namespace Odin_Toolkits.Common_Utilities
 {
     public enum InnerRectType
     {

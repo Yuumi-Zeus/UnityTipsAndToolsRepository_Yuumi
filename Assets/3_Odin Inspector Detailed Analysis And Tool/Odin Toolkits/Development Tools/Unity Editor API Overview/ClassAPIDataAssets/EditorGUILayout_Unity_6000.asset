@@ -1,0 +1,1076 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: EditorGUILayout_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEditor.EditorGUILayout, UnityEditor.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: EditorGUILayout
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: EnumMaskField(Enum enumValue, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskField(Enum enumValue, GUIStyle style, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskField(string label, Enum enumValue, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskField(string label, Enum enumValue, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskField(GUIContent label, Enum enumValue, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskField(GUIContent label, Enum enumValue, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskPopup(string label, Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskPopup(string label, Enum selected, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskPopup(GUIContent label, Enum selected, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskPopup(GUIContent label, Enum selected, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: Foldout(bool foldout, string content)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, string content, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, GUIContent content)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, GUIContent content, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, string content, bool toggleOnLabelClick)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, string content, bool toggleOnLabelClick, GUIStyle
+      style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, GUIContent content, bool toggleOnLabelClick)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool foldout, GUIContent content, bool toggleOnLabelClick,
+      GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: PrefixLabel(string label)
+    returnType: Void
+  - isStatic: 1
+    memberName: PrefixLabel(string label, GUIStyle followingStyle)
+    returnType: Void
+  - isStatic: 1
+    memberName: PrefixLabel(string label, GUIStyle followingStyle, GUIStyle labelStyle)
+    returnType: Void
+  - isStatic: 1
+    memberName: PrefixLabel(GUIContent label)
+    returnType: Void
+  - isStatic: 1
+    memberName: PrefixLabel(GUIContent label, GUIStyle followingStyle)
+    returnType: Void
+  - isStatic: 1
+    memberName: PrefixLabel(GUIContent label, GUIStyle followingStyle, GUIStyle labelStyle)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(string label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(string label, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(GUIContent label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(GUIContent label, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(string label, string label2, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(string label, string label2, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(GUIContent label, GUIContent label2, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LabelField(GUIContent label, GUIContent label2, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LinkButton(string label, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: LinkButton(GUIContent label, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(string label, bool value, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(GUIContent label, bool value, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, GUIStyle style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(string label, bool value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(GUIContent label, bool value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToggleLeft(string label, bool value, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToggleLeft(GUIContent label, bool value, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToggleLeft(string label, bool value, GUIStyle labelStyle, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToggleLeft(GUIContent label, bool value, GUIStyle labelStyle, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: TextField(string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string label, string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string label, string text, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(GUIContent label, string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(GUIContent label, string text, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(string label, string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(string label, string text, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(GUIContent label, string text, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(GUIContent label, string text, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(SerializedProperty property, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: DelayedTextField(SerializedProperty property, GUIContent label, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: TextArea(string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: SelectableLabel(string text, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: SelectableLabel(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: PasswordField(string password, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string password, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string label, string password, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string label, string password, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(GUIContent label, string password, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(GUIContent label, string password, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: FloatField(float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(float value, GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(string label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(string label, float value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(GUIContent label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(GUIContent label, float value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(float value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(string label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(string label, float value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(GUIContent label, float value, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(GUIContent label, float value, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(SerializedProperty property, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: DelayedFloatField(SerializedProperty property, GUIContent label,
+      GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: DoubleField(double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(double value, GUIStyle style, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(string label, double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(string label, double value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(GUIContent label, double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(GUIContent label, double value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(double value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(string label, double value, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(string label, double value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(GUIContent label, double value, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(GUIContent label, double value, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: IntField(int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(int value, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(string label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(string label, int value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(GUIContent label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(GUIContent label, int value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(int value, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(string label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(string label, int value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(GUIContent label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(GUIContent label, int value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(SerializedProperty property, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: DelayedIntField(SerializedProperty property, GUIContent label, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: LongField(long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(long value, GUIStyle style, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(string label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(string label, long value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(GUIContent label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(GUIContent label, long value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: long
+  - isStatic: 1
+    memberName: Slider(float value, float leftValue, float rightValue, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: Slider(string label, float value, float leftValue, float rightValue,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: Slider(GUIContent label, float value, float leftValue, float rightValue,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: Slider(SerializedProperty property, float leftValue, float rightValue,
+      GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Slider(SerializedProperty property, float leftValue, float rightValue,
+      string label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Slider(SerializedProperty property, float leftValue, float rightValue,
+      GUIContent label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: IntSlider(int value, int leftValue, int rightValue, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntSlider(string label, int value, int leftValue, int rightValue,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntSlider(GUIContent label, int value, int leftValue, int rightValue,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntSlider(SerializedProperty property, int leftValue, int rightValue,
+      GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: IntSlider(SerializedProperty property, int leftValue, int rightValue,
+      string label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: IntSlider(SerializedProperty property, int leftValue, int rightValue,
+      GUIContent label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(ref float minValue, ref float maxValue, float minLimit,
+      float maxLimit, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(string label, ref float minValue, ref float maxValue,
+      float minLimit, float maxLimit, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(GUIContent label, ref float minValue, ref float maxValue,
+      float minLimit, float maxLimit, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Popup(int selectedIndex, string[] displayedOptions, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(int selectedIndex, string[] displayedOptions, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(int selectedIndex, GUIContent[] displayedOptions, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(int selectedIndex, GUIContent[] displayedOptions, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(string label, int selectedIndex, string[] displayedOptions,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(GUIContent label, int selectedIndex, string[] displayedOptions,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(string label, int selectedIndex, string[] displayedOptions,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(GUIContent label, int selectedIndex, GUIContent[] displayedOptions,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Popup(GUIContent label, int selectedIndex, GUIContent[] displayedOptions,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: EnumPopup(Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(Enum selected, GUIStyle style, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(string label, Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(string label, Enum selected, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(GUIContent label, Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(GUIContent label, Enum selected, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(GUIContent label, Enum selected, Func<Enum, bool> checkEnabled,
+      bool includeObsolete, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumPopup(GUIContent label, Enum selected, Func<Enum, bool> checkEnabled,
+      bool includeObsolete, GUIStyle style, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: IntPopup(int selectedValue, string[] displayedOptions, int[] optionValues,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(int selectedValue, string[] displayedOptions, int[] optionValues,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(int selectedValue, GUIContent[] displayedOptions, int[]
+      optionValues, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(int selectedValue, GUIContent[] displayedOptions, int[]
+      optionValues, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(string label, int selectedValue, string[] displayedOptions,
+      int[] optionValues, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(string label, int selectedValue, string[] displayedOptions,
+      int[] optionValues, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(GUIContent label, int selectedValue, GUIContent[] displayedOptions,
+      int[] optionValues, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(GUIContent label, int selectedValue, GUIContent[] displayedOptions,
+      int[] optionValues, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntPopup(SerializedProperty property, GUIContent[] displayedOptions,
+      int[] optionValues, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: IntPopup(SerializedProperty property, GUIContent[] displayedOptions,
+      int[] optionValues, GUIContent label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: IntPopup(SerializedProperty property, GUIContent[] displayedOptions,
+      int[] optionValues, GUIContent label, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: TagField(string tag, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TagField(string tag, GUIStyle style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TagField(string label, string tag, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TagField(string label, string tag, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: TagField(GUIContent label, string tag, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TagField(GUIContent label, string tag, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: LayerField(int layer, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: LayerField(int layer, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: LayerField(string label, int layer, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: LayerField(string label, int layer, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: LayerField(GUIContent label, int layer, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: LayerField(GUIContent label, int layer, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: MaskField(GUIContent label, int mask, string[] displayedOptions,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: MaskField(string label, int mask, string[] displayedOptions, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: MaskField(GUIContent label, int mask, string[] displayedOptions,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: MaskField(string label, int mask, string[] displayedOptions, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: MaskField(int mask, string[] displayedOptions, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: MaskField(int mask, string[] displayedOptions, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: EnumFlagsField(Enum enumValue, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(Enum enumValue, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(string label, Enum enumValue, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(string label, Enum enumValue, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(GUIContent label, Enum enumValue, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(GUIContent label, Enum enumValue, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(GUIContent label, Enum enumValue, bool includeObsolete,
+      GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumFlagsField(GUIContent label, Enum enumValue, bool includeObsolete,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: ObjectField(Object obj, Type objType, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(Object obj, Type objType, Object targetBeingEdited, GUILayoutOption[]
+      options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(Object obj, Type objType, bool allowSceneObjects, GUILayoutOption[]
+      options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(string label, Object obj, Type objType, GUILayoutOption[]
+      options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(string label, Object obj, Type objType, Object targetBeingEdited,
+      GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(string label, Object obj, Type objType, bool allowSceneObjects,
+      GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(GUIContent label, Object obj, Type objType, GUILayoutOption[]
+      options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(GUIContent label, Object obj, Type objType, Object targetBeingEdited,
+      GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(GUIContent label, Object obj, Type objType, bool allowSceneObjects,
+      GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(SerializedProperty property, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: ObjectField(SerializedProperty property, GUIContent label, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: ObjectField(SerializedProperty property, Type objType, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: ObjectField(SerializedProperty property, Type objType, GUIContent
+      label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Vector2Field(string label, Vector2 value, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector2Field(GUIContent label, Vector2 value, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector3Field(string label, Vector3 value, GUILayoutOption[] options)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector3Field(GUIContent label, Vector3 value, GUILayoutOption[] options)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector4Field(string label, Vector4 value, GUILayoutOption[] options)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector4Field(GUIContent label, Vector4 value, GUILayoutOption[] options)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector2IntField(string label, Vector2Int value, GUILayoutOption[]
+      options)
+    returnType: Vector2Int
+  - isStatic: 1
+    memberName: Vector2IntField(GUIContent label, Vector2Int value, GUILayoutOption[]
+      options)
+    returnType: Vector2Int
+  - isStatic: 1
+    memberName: Vector3IntField(string label, Vector3Int value, GUILayoutOption[]
+      options)
+    returnType: Vector3Int
+  - isStatic: 1
+    memberName: Vector3IntField(GUIContent label, Vector3Int value, GUILayoutOption[]
+      options)
+    returnType: Vector3Int
+  - isStatic: 1
+    memberName: RectField(Rect value, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: RectField(string label, Rect value, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: RectField(GUIContent label, Rect value, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: RectIntField(RectInt value, GUILayoutOption[] options)
+    returnType: RectInt
+  - isStatic: 1
+    memberName: RectIntField(string label, RectInt value, GUILayoutOption[] options)
+    returnType: RectInt
+  - isStatic: 1
+    memberName: RectIntField(GUIContent label, RectInt value, GUILayoutOption[] options)
+    returnType: RectInt
+  - isStatic: 1
+    memberName: BoundsField(Bounds value, GUILayoutOption[] options)
+    returnType: Bounds
+  - isStatic: 1
+    memberName: BoundsField(string label, Bounds value, GUILayoutOption[] options)
+    returnType: Bounds
+  - isStatic: 1
+    memberName: BoundsField(GUIContent label, Bounds value, GUILayoutOption[] options)
+    returnType: Bounds
+  - isStatic: 1
+    memberName: BoundsIntField(BoundsInt value, GUILayoutOption[] options)
+    returnType: BoundsInt
+  - isStatic: 1
+    memberName: BoundsIntField(string label, BoundsInt value, GUILayoutOption[] options)
+    returnType: BoundsInt
+  - isStatic: 1
+    memberName: BoundsIntField(GUIContent label, BoundsInt value, GUILayoutOption[]
+      options)
+    returnType: BoundsInt
+  - isStatic: 1
+    memberName: ColorField(Color value, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(string label, Color value, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(GUIContent label, Color value, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(GUIContent label, Color value, bool showEyedropper, bool
+      showAlpha, bool hdr, ColorPickerHDRConfig hdrConfig, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(GUIContent label, Color value, bool showEyedropper, bool
+      showAlpha, bool hdr, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: CurveField(AnimationCurve value, GUILayoutOption[] options)
+    returnType: AnimationCurve
+  - isStatic: 1
+    memberName: CurveField(string label, AnimationCurve value, GUILayoutOption[]
+      options)
+    returnType: AnimationCurve
+  - isStatic: 1
+    memberName: CurveField(GUIContent label, AnimationCurve value, GUILayoutOption[]
+      options)
+    returnType: AnimationCurve
+  - isStatic: 1
+    memberName: CurveField(AnimationCurve value, Color color, Rect ranges, GUILayoutOption[]
+      options)
+    returnType: AnimationCurve
+  - isStatic: 1
+    memberName: CurveField(string label, AnimationCurve value, Color color, Rect
+      ranges, GUILayoutOption[] options)
+    returnType: AnimationCurve
+  - isStatic: 1
+    memberName: CurveField(GUIContent label, AnimationCurve value, Color color, Rect
+      ranges, GUILayoutOption[] options)
+    returnType: AnimationCurve
+  - isStatic: 1
+    memberName: CurveField(SerializedProperty property, Color color, Rect ranges,
+      GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: CurveField(SerializedProperty property, Color color, Rect ranges,
+      GUIContent label, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: InspectorTitlebar(bool foldout, Object targetObj)
+    returnType: bool
+  - isStatic: 1
+    memberName: InspectorTitlebar(bool foldout, Object targetObj, bool expandable)
+    returnType: bool
+  - isStatic: 1
+    memberName: InspectorTitlebar(bool foldout, Object[] targetObjs)
+    returnType: bool
+  - isStatic: 1
+    memberName: InspectorTitlebar(bool foldout, Object[] targetObjs, bool expandable)
+    returnType: bool
+  - isStatic: 1
+    memberName: InspectorTitlebar(bool foldout, Editor editor)
+    returnType: bool
+  - isStatic: 1
+    memberName: InspectorTitlebar(Object[] targetObjs)
+    returnType: Void
+  - isStatic: 1
+    memberName: HelpBox(string message, MessageType type)
+    returnType: Void
+  - isStatic: 1
+    memberName: HelpBox(string message, MessageType type, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: HelpBox(GUIContent content, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: Space()
+    returnType: Void
+  - isStatic: 1
+    memberName: Space(float width)
+    returnType: Void
+  - isStatic: 1
+    memberName: Space(float width, bool expand)
+    returnType: Void
+  - isStatic: 1
+    memberName: Separator()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginToggleGroup(string label, bool toggle)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginToggleGroup(GUIContent label, bool toggle)
+    returnType: bool
+  - isStatic: 1
+    memberName: EndToggleGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontal(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginHorizontal(GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndHorizontal()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVertical(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginVertical(GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndVertical()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal,
+      bool alwaysShowVertical, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUIStyle horizontalScrollbar,
+      GUIStyle verticalScrollbar, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal,
+      bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar,
+      GUIStyle background, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: EndScrollView()
+    returnType: Void
+  - isStatic: 1
+    memberName: PropertyField(SerializedProperty property, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: PropertyField(SerializedProperty property, GUIContent label, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: PropertyField(SerializedProperty property, bool includeChildren,
+      GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: PropertyField(SerializedProperty property, GUIContent label, bool
+      includeChildren, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetControlRect(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetControlRect(bool hasLabel, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetControlRect(bool hasLabel, float height, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetControlRect(bool hasLabel, float height, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginFadeGroup(float value)
+    returnType: bool
+  - isStatic: 1
+    memberName: EndFadeGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginBuildTargetSelectionGrouping()
+    returnType: BuildTargetGroup
+  - isStatic: 1
+    memberName: EndBuildTargetSelectionGrouping()
+    returnType: Void
+  - isStatic: 1
+    memberName: DropdownButton(GUIContent content, FocusType focusType, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: DropdownButton(GUIContent content, FocusType focusType, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(string label, uint layers, GUILayoutOption[]
+      options)
+    returnType: uint
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(string label, uint layers, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: uint
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(GUIContent label, uint layers, GUILayoutOption[]
+      options)
+    returnType: uint
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(string label, RenderingLayerMask layers,
+      GUILayoutOption[] options)
+    returnType: RenderingLayerMask
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(string label, RenderingLayerMask layers,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: RenderingLayerMask
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(GUIContent label, RenderingLayerMask layers,
+      GUILayoutOption[] options)
+    returnType: RenderingLayerMask
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(GUIContent label, uint layers, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: uint
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(GUIContent label, RenderingLayerMask layers,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: RenderingLayerMask
+  - isStatic: 1
+    memberName: RenderingLayerMaskField(GUIContent label, SerializedProperty property,
+      GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginFoldoutHeaderGroup(bool foldout, string content, GUIStyle style,
+      Action<Rect> menuAction, GUIStyle menuIcon)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFoldoutHeaderGroup(bool foldout, GUIContent content, GUIStyle
+      style, Action<Rect> menuAction, GUIStyle menuIcon)
+    returnType: bool
+  - isStatic: 1
+    memberName: EndFoldoutHeaderGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: GradientField(Gradient value, GUILayoutOption[] options)
+    returnType: Gradient
+  - isStatic: 1
+    memberName: GradientField(string label, Gradient value, GUILayoutOption[] options)
+    returnType: Gradient
+  - isStatic: 1
+    memberName: GradientField(GUIContent label, Gradient value, GUILayoutOption[]
+      options)
+    returnType: Gradient
+  - isStatic: 1
+    memberName: GradientField(GUIContent label, Gradient value, bool hdr, GUILayoutOption[]
+      options)
+    returnType: Gradient
+  - isStatic: 1
+    memberName: Knob(Vector2 knobSize, float value, float minValue, float maxValue,
+      string unit, Color backgroundColor, Color activeColor, bool showValue, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: EditorToolbarForTarget(Object target)
+    returnType: Void
+  - isStatic: 1
+    memberName: EditorToolbarForTarget(GUIContent content, Object target)
+    returnType: Void
+  - isStatic: 1
+    memberName: ToolContextToolbarForTarget(GUIContent content, Object target)
+    returnType: Void
+  - isStatic: 1
+    memberName: EditorToolbar(EditorTool[] tools)
+    returnType: Void
+  - isStatic: 1
+    memberName: EditorToolbar<T>(IList<T> tools)
+    returnType: Void
+  - isStatic: 1
+    memberName: ToolContextToolbar<T>(GUIContent content, IList<T> contexts)
+    returnType: Void
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList: []
+  backendFieldDataList: []
+  backendEventDataList: []

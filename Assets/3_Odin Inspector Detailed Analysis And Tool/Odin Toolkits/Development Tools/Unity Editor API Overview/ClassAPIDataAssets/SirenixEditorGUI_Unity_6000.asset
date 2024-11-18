@@ -1,0 +1,670 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: SirenixEditorGUI_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.Utilities.Editor.SirenixEditorGUI, Sirenix.Utilities.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: SirenixEditorGUI
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: setDefaultFadeGroupDuration(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setTabPageSlideAnimationDuration(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setShakingAnimationDuration(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontalPropertyLayout(GUIContent label)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginHorizontalPropertyLayout(GUIContent label, ref Rect labelRect)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndHorizontalPropertyLayout()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVerticalPropertyLayout(GUIContent label)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginVerticalPropertyLayout(GUIContent label, ref Rect labelRect)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndVerticalPropertyLayout()
+    returnType: Void
+  - isStatic: 1
+    memberName: setExpandFoldoutByDefault(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setShowButtonResultsByDefault(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: ObjectField(Rect rect, GUIContent label, Object value, Type objectType,
+      bool allowSceneObjects, bool isReadOnly)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(GUIContent label, Object value, Type objectType, bool
+      allowSceneObjects, bool isReadOnly)
+    returnType: Object
+  - isStatic: 1
+    memberName: ObjectField(Object key, Type type, GUIContent label, Object value,
+      bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: Title(string title, string subtitle, TextAlignment textAlignment,
+      bool horizontalLine, bool boldLabel)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawColorField(Rect rect, Color color, bool useAlphaInPreview, bool
+      showAlphaBar)
+    returnType: Color
+  - isStatic: 1
+    memberName: WarningMessageBox(string message, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawThickHorizontalSeperator(Rect rect)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawThickHorizontalSeparator()
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawThickHorizontalSeparator(float topPadding, float bottomPadding)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawThickHorizontalSeperator(float height, float topPadding, float
+      bottomPadding)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawHorizontalLineSeperator(float x, float y, float width, float
+      alpha)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawVerticalLineSeperator(float x, float y, float height, float alpha)
+    returnType: Void
+  - isStatic: 1
+    memberName: ErrorMessageBox(string message, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: InfoMessageBox(string message, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: MessageBox(string message, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: MessageBox(string message, MessageType messageType, bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: MessageBox(string message, MessageType messageType, GUIStyle style,
+      bool wide)
+    returnType: Void
+  - isStatic: 1
+    memberName: MessageBox(string message, MessageType messageType, GUIStyle style,
+      bool wide, Action<GenericMenu> onContextClick)
+    returnType: Void
+  - isStatic: 1
+    memberName: DetailedMessageBox(string message, string detailedMessage, MessageType
+      messageType, bool hideDetailedMessage, bool wide)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconMessageBox(string message, SdfIconType iconType, Color? color,
+      GUIStyle messageBoxStyle, Action<GenericMenu> onContextClick)
+    returnType: Void
+  - isStatic: 1
+    memberName: HorizontalLineSeparator(int lineWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: HorizontalLineSeparator(Color color, int lineWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: VerticalLineSeparator(int lineWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: VerticalLineSeparator(Color color, int lineWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: IconButton(EditorIcon icon, int width, int height, string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(EditorIcon icon, GUIStyle style, int width, int height,
+      string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Rect rect, EditorIcon icon)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Rect rect, EditorIcon icon, string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Rect rect, EditorIcon icon, GUIStyle style, string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Rect rect, Texture icon, string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Rect rect, Texture icon, GUIStyle style, string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Texture icon, int width, int height, string tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconButton(Texture icon, GUIStyle style, int width, int height, string
+      tooltip)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconRepeatButton(EditorIcon icon)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconRepeatButton(EditorIcon icon, int size)
+    returnType: bool
+  - isStatic: 1
+    memberName: IconRepeatButton(EditorIcon icon, int width, int height)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(string label, float height, SdfIconType icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(GUIContent label, float height, SdfIconType icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(string label, float height, Texture icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(GUIContent label, float height, Texture icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, string label, SdfIconType icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, SdfIconType icon, IconAlignment iconAlignment,
+      GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, SdfIconType icon, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, string label, Texture icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, GUIContent label, SdfIconType icon, IconAlignment
+      iconAlignment, GUIStyle style, bool selected)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, GUIContent label, Texture icon, IconAlignment
+      iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, GUIContent label, Color buttonColor, Color
+      textColor, SdfIconType icon, IconAlignment iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: SDFIconButton(Rect rect, GUIContent label, Color buttonColor, Color
+      textColor, Texture icon, IconAlignment iconAlignment, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: CalculateMinimumSDFIconButtonWidth(string btnText, GUIStyle labelStyle,
+      bool hasIcon, float buttonHeight, ref float labelWidth, ref float iconWidth,
+      ref float singlePadding, ref float totalWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: ToolbarButton(EditorIcon icon, bool ignoreGUIEnabled)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarButton(SdfIconType icon, bool ignoreGUIEnabled)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarButton(GUIContent content, bool selected)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarButton(string label, bool selected)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarToggle(bool isActive, EditorIcon icon)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarToggle(bool isActive, Texture icon)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarToggle(bool isActive, GUIContent content)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarToggle(bool isActive, string text)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarTab(bool isActive, string label)
+    returnType: bool
+  - isStatic: 1
+    memberName: ToolbarTab(bool isActive, GUIContent label)
+    returnType: bool
+  - isStatic: 1
+    memberName: DrawSolidRect(Rect rect, Color color, bool usePlaymodeTint)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawSolidRect(float width, float height, Color color, bool usePlaymodeTint)
+    returnType: Rect
+  - isStatic: 1
+    memberName: DrawBorders(Rect rect, int borderWidth, bool usePlaymodeTint)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawBorders(Rect rect, int borderWidth, Color color, bool usePlaymodeTint)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawBorders(Rect rect, int left, int right, int top, int bottom,
+      bool usePlaymodeTint)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawBorders(Rect rect, int left, int right, int top, int bottom,
+      Color color, bool usePlaymodeTint)
+    returnType: Void
+  - isStatic: 1
+    memberName: ToolbarSearchField(string searchText, bool forceFocus, float marginLeftRight)
+    returnType: string
+  - isStatic: 1
+    memberName: SearchField(Rect rect, string searchText, bool forceFocus, string
+      controlName)
+    returnType: string
+  - isStatic: 1
+    memberName: BeginHorizontalToolbar(float height, int paddingTop)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginHorizontalToolbar(GUIStyle style, float height, int topPadding)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndHorizontalToolbar()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginIndentedHorizontal(GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginIndentedHorizontal(GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndIndentedHorizontal()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginIndentedVertical(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginIndentedVertical(GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndIndentedVertical()
+    returnType: Void
+  - isStatic: 1
+    memberName: IndentSpace()
+    returnType: Void
+  - isStatic: 1
+    memberName: MenuButton(int indent, string text, bool isActive, Texture icon)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object key, bool isVisible)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object key, bool isVisible, ref float t)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object primaryKey, Object secondaryKey, bool isVisible)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object key, string name, bool isVisible)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object key, bool isVisible, float duration)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object key, bool isVisible, ref float t, float duration)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object primaryKey, Object secondaryKey, bool isVisible,
+      float duration)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(Object key, string name, bool isVisible, float duration)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginFadeGroup(float t)
+    returnType: bool
+  - isStatic: 1
+    memberName: EndFadeGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: Foldout(bool isVisible, string label, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool isVisible, GUIContent label, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(bool isVisible, GUIContent label, ref Rect valueRect, GUIStyle
+      style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(Rect rect, bool isVisible, string label, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(Rect rect, bool isVisible, GUIContent label, GUIStyle style)
+    returnType: bool
+  - isStatic: 1
+    memberName: Foldout(ref Rect position, int id, GUIContent label, bool isExpanded,
+      bool toggleOnLabelClick)
+    returnType: bool
+  - isStatic: 1
+    memberName: PrefixRect(Rect position, ref Rect prefixPosition)
+    returnType: Rect
+  - isStatic: 1
+    memberName: PrefixRect(Rect position, GUIContent label, ref Rect prefixPosition)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginBox(string label, bool centerLabel, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginBox(GUIContent label, bool centerLabel, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginBox(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndBox()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginBoxHeader()
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndBoxHeader()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginToolbarBox(string label, bool centerLabel, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginToolbarBox(GUIContent label, bool centerLabel, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginToolbarBox(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndToolbarBox()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginToolbarBoxHeader(float height)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndToolbarBoxHeader()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginLegendBox(string label, bool centerLabel, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginLegendBox(GUIContent label, bool centerLabel, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginLegendBox(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndLegendBox()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginInlineBox(GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndInlineBox()
+    returnType: Void
+  - isStatic: 1
+    memberName: StartShakingGroup(Object key)
+    returnType: Void
+  - isStatic: 1
+    memberName: StartShakingGroup(Object key, float duration)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginShakeableGroup(Object key)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndShakeableGroup(Object key)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginShakeableGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginShakeableGroup(float duration)
+    returnType: Void
+  - isStatic: 1
+    memberName: StartShakingGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: EndShakeableGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVerticalMenuList(Object key)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginMenuListItem(ref bool isSelected, ref bool isMouseDown, bool
+      setAsSelected)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndMenuListItem()
+    returnType: Void
+  - isStatic: 1
+    memberName: EndVerticalMenuList()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVerticalList(bool drawBorder, bool drawDarkBg, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndVerticalList()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginListItem(bool allowHover, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginListItem(bool allowHover, GUIStyle style, Color evenColor, Color
+      oddColor, Color evenHoverColor, Color oddHoverColor, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndListItem()
+    returnType: Void
+  - isStatic: 1
+    memberName: CreateAnimatedTabGroup(Object key)
+    returnType: GUITabGroup
+  - isStatic: 1
+    memberName: BeginToggleGroup(Object key, ref bool enabled, ref bool visible,
+      string title)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginToggleGroup(Object key, ref bool enabled, ref bool visible,
+      string title, float animationDuration)
+    returnType: bool
+  - isStatic: 1
+    memberName: EndToggleGroup()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontalAutoScrollBox(Object key, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndHorizontalAutoScrollBox()
+    returnType: Void
+  - isStatic: 1
+    memberName: SlideRectInt(Rect rect, int id, int t)
+    returnType: int
+  - isStatic: 1
+    memberName: SlideRectLong(Rect rect, int id, long t)
+    returnType: long
+  - isStatic: 1
+    memberName: SlideRect(Rect rect, int id, float t)
+    returnType: float
+  - isStatic: 1
+    memberName: SlideRectDouble(Rect rect, int id, double t)
+    returnType: double
+  - isStatic: 1
+    memberName: SlideRect(Rect rect, MouseCursor cursor)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: SlideRect(Vector2 position, Rect rect)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: DynamicPrimitiveField<T>(GUIContent label, T value, GUILayoutOption[]
+      options)
+    returnType: T
+  - isStatic: 1
+    memberName: DynamicPrimitiveFieldCanDraw<T>()
+    returnType: bool
+  - isStatic: 1
+    memberName: GetFeatureRichControlRect(GUIContent label, ref int controlId, ref
+      bool hasKeyboardFocus, ref Rect valueRect, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetFeatureRichControlRect(GUIContent label, int height, ref int controlId,
+      ref bool hasKeyboardFocus, ref Rect valueRect, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetFeatureRichControl(Rect rect, GUIContent label, ref int controlId,
+      ref bool hasKeyboardFocus)
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetFeatureRichControl(Rect rect, ref int controlId, ref bool hasKeyboardFocus)
+    returnType: Rect
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, int slice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, int horizontalSlice,
+      int verticalSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, int leftSlice, int
+      rightSlice, int topSlice, int bottomSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Rect uvRect, int slice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Rect uvRect, int horizontalSlice,
+      int verticalSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Rect uvRect, int leftSlice,
+      int rightSlice, int topSlice, int bottomSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Color color, int slice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Color color, int horizontalSlice,
+      int verticalSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Color color, int leftSlice,
+      int rightSlice, int topSlice, int bottomSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Color color, Rect uvRect,
+      int slice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Color color, Rect uvRect,
+      int horizontalSlice, int verticalSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureSliced(Rect rect, Texture texture, Color color, Rect uvRect,
+      int leftSlice, int rightSlice, int topSlice, int bottomSlice)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureRepeat(Rect rect, Texture texture, float scale)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawTextureRepeat(Rect rect, Texture texture, Color color, float
+      scale)
+    returnType: Void
+  - isStatic: 1
+    memberName: Button(string text, ButtonSizes size)
+    returnType: bool
+  - isStatic: 1
+    memberName: DrawRoundRect(Rect position, Color color, float cornerRadii)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawRoundRect(Rect position, Color color, float cornerRadii, Color
+      borderColor, float borderThickness)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawRoundRect(Rect position, Color color, float topLeftCornerRadius,
+      float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawRoundRect(Rect position, Color color, float topLeftCornerRadius,
+      float topRightCornerRadius, float bottomLeftCornerRadius, float bottomRightCornerRadius,
+      Color borderColor, float borderThickness)
+    returnType: Void
+  - isStatic: 1
+    memberName: DoButton(Rect position, ref bool isMouseOver)
+    returnType: bool
+  - isStatic: 1
+    memberName: DoButton(Rect position, ref int controlId, ref bool isMouseOver,
+      ref bool isActive)
+    returnType: bool
+  - isStatic: 1
+    memberName: DoButton(Rect position, int controlId, ref bool isMouseOver, ref
+      bool isActive)
+    returnType: bool
+  - isStatic: 1
+    memberName: DoButton(int controlId, bool isMouseOver, ref bool isActive)
+    returnType: bool
+  - isStatic: 1
+    memberName: BeginVerticalWithoutUsingControlID(GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: BeginHorizontalWithoutUsingControlID(GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Rect
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: DefaultFadeGroupDuration
+  - isStatic: 1
+    memberName: TabPageSlideAnimationDuration
+  - isStatic: 1
+    memberName: ShakingAnimationDuration
+  - isStatic: 1
+    memberName: ExpandFoldoutByDefault
+  - isStatic: 1
+    memberName: ShowButtonResultsByDefault
+  - isStatic: 1
+    memberName: FoldoutWidth
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: currentDrawingToolbarHeight
+  - isStatic: 1
+    memberName: MixedValueDashChar
+  backendEventDataList: []

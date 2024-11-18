@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: AssetDatabase_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEditor.AssetDatabase, UnityEditor.CoreModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: AssetDatabase
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: addImportPackageStarted(AssetDatabase.ImportPackageCallback value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeImportPackageStarted(AssetDatabase.ImportPackageCallback value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addImportPackageCompleted(AssetDatabase.ImportPackageCallback value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeImportPackageCompleted(AssetDatabase.ImportPackageCallback
+      value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addImportPackageCancelled(AssetDatabase.ImportPackageCallback value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeImportPackageCancelled(AssetDatabase.ImportPackageCallback
+      value)
+    returnType: Void
+  - isStatic: 1
+    memberName: addImportPackageFailed(AssetDatabase.ImportPackageFailedCallback
+      value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeImportPackageFailed(AssetDatabase.ImportPackageFailedCallback
+      value)
+    returnType: Void
+  - isStatic: 1
+    memberName: CanOpenForEdit(string[] assetOrMetaFilePaths, List<string> outNotEditablePaths,
+      StatusQueryOptions statusQueryOptions)
+    returnType: Void
+  - isStatic: 1
+    memberName: IsOpenForEdit(string[] assetOrMetaFilePaths, List<string> outNotEditablePaths,
+      StatusQueryOptions statusQueryOptions)
+    returnType: Void
+  - isStatic: 1
+    memberName: MakeEditable(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: MakeEditable(string[] paths, string prompt, List<string> outNotEditablePaths)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetTextMetaDataPathFromAssetPath(string path)
+    returnType: string
+  - isStatic: 1
+    memberName: FindAssets(string filter)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: FindAssets(string filter, string[] searchInFolders)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: TryGetAssetFolderInfo(string path, ref bool rootFolder, ref bool
+      immutable)
+    returnType: bool
+  - isStatic: 1
+    memberName: Contains(Object obj)
+    returnType: bool
+  - isStatic: 1
+    memberName: Contains(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: CreateFolder(string parentFolder, string newFolderName)
+    returnType: string
+  - isStatic: 1
+    memberName: IsMainAsset(Object obj)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsMainAsset(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsSubAsset(Object obj)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsSubAsset(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsForeignAsset(Object obj)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsForeignAsset(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsNativeAsset(Object obj)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsNativeAsset(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetScriptableObjectsWithMissingScriptCount(string assetPath)
+    returnType: int
+  - isStatic: 1
+    memberName: RemoveScriptableObjectsWithMissingScript(string assetPath)
+    returnType: int
+  - isStatic: 1
+    memberName: GetCurrentCacheServerIp()
+    returnType: string
+  - isStatic: 1
+    memberName: GenerateUniqueAssetPath(string path)
+    returnType: string
+  - isStatic: 1
+    memberName: StartAssetEditing()
+    returnType: Void
+  - isStatic: 1
+    memberName: StopAssetEditing()
+    returnType: Void
+  - isStatic: 1
+    memberName: ReleaseCachedFileHandles()
+    returnType: Void
+  - isStatic: 1
+    memberName: ValidateMoveAsset(string oldPath, string newPath)
+    returnType: string
+  - isStatic: 1
+    memberName: MoveAsset(string oldPath, string newPath)
+    returnType: string
+  - isStatic: 1
+    memberName: ExtractAsset(Object asset, string newPath)
+    returnType: string
+  - isStatic: 1
+    memberName: RenameAsset(string pathName, string newName)
+    returnType: string
+  - isStatic: 1
+    memberName: MoveAssetToTrash(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: MoveAssetsToTrash(string[] paths, List<string> outFailedPaths)
+    returnType: bool
+  - isStatic: 1
+    memberName: DeleteAsset(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: DeleteAssets(string[] paths, List<string> outFailedPaths)
+    returnType: bool
+  - isStatic: 1
+    memberName: ImportAsset(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: ImportAsset(string path, ImportAssetOptions options)
+    returnType: Void
+  - isStatic: 1
+    memberName: CopyAsset(string path, string newPath)
+    returnType: bool
+  - isStatic: 1
+    memberName: CopyAssets(string[] paths, string[] newPaths)
+    returnType: bool
+  - isStatic: 1
+    memberName: WriteImportSettingsIfDirty(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetSubFolders(string path)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: IsValidFolder(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: CreateAsset(Object asset, string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: AddObjectToAsset(Object objectToAdd, string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: AddObjectToAsset(Object objectToAdd, Object assetObject)
+    returnType: Void
+  - isStatic: 1
+    memberName: SetMainObject(Object mainObject, string assetPath)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetAssetPath(Object assetObject)
+    returnType: string
+  - isStatic: 1
+    memberName: GetAssetPath(int instanceID)
+    returnType: string
+  - isStatic: 1
+    memberName: GetAssetOrScenePath(Object assetObject)
+    returnType: string
+  - isStatic: 1
+    memberName: GetTextMetaFilePathFromAssetPath(string path)
+    returnType: string
+  - isStatic: 1
+    memberName: GetAssetPathFromTextMetaFilePath(string path)
+    returnType: string
+  - isStatic: 1
+    memberName: LoadAssetAtPath(string assetPath, Type type)
+    returnType: Object
+  - isStatic: 1
+    memberName: LoadAssetAtPath<T>(string assetPath)
+    returnType: T
+  - isStatic: 1
+    memberName: LoadMainAssetAtPath(string assetPath)
+    returnType: Object
+  - isStatic: 1
+    memberName: InstanceIDsToGUIDs(NativeArray<int> instanceIDs, NativeArray<GUID>
+      guidsOut)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetMainAssetTypeAtPath(string assetPath)
+    returnType: Type
+  - isStatic: 1
+    memberName: GetMainAssetTypeFromGUID(GUID guid)
+    returnType: Type
+  - isStatic: 1
+    memberName: GetTypeFromPathAndFileID(string assetPath, long localIdentifierInFile)
+    returnType: Type
+  - isStatic: 1
+    memberName: IsMainAssetAtPathLoaded(string assetPath)
+    returnType: bool
+  - isStatic: 1
+    memberName: LoadAllAssetRepresentationsAtPath(string assetPath)
+    returnType: 'Object[]'
+  - isStatic: 1
+    memberName: LoadAllAssetsAtPath(string assetPath)
+    returnType: 'Object[]'
+  - isStatic: 1
+    memberName: GetAllAssetPaths()
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: Refresh()
+    returnType: Void
+  - isStatic: 1
+    memberName: Refresh(ImportAssetOptions options)
+    returnType: Void
+  - isStatic: 1
+    memberName: CanOpenAssetInEditor(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(int instanceID)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(int instanceID, int lineNumber)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(int instanceID, int lineNumber, int columnNumber)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(Object target)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(Object target, int lineNumber)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(Object target, int lineNumber, int columnNumber)
+    returnType: bool
+  - isStatic: 1
+    memberName: OpenAsset(Object[] objects)
+    returnType: bool
+  - isStatic: 1
+    memberName: GUIDToAssetPath(string guid)
+    returnType: string
+  - isStatic: 1
+    memberName: GUIDToAssetPath(GUID guid)
+    returnType: string
+  - isStatic: 1
+    memberName: GUIDFromAssetPath(string path)
+    returnType: GUID
+  - isStatic: 1
+    memberName: AssetPathToGUID(string path)
+    returnType: string
+  - isStatic: 1
+    memberName: AssetPathToGUID(string path, AssetPathToGUIDOptions options)
+    returnType: string
+  - isStatic: 1
+    memberName: AssetPathExists(string path)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetAssetDependencyHash(GUID guid)
+    returnType: Hash128
+  - isStatic: 1
+    memberName: GetAssetDependencyHash(string path)
+    returnType: Hash128
+  - isStatic: 1
+    memberName: SaveAssets()
+    returnType: Void
+  - isStatic: 1
+    memberName: SaveAssetIfDirty(GUID guid)
+    returnType: Void
+  - isStatic: 1
+    memberName: SaveAssetIfDirty(Object obj)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetCachedIcon(string path)
+    returnType: Texture
+  - isStatic: 1
+    memberName: SetLabels(Object obj, string[] labels)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetLabels(GUID guid)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetLabels(Object obj)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: ClearLabels(Object obj)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetAllAssetBundleNames()
+    returnType: 'string[]'
+  - isStatic: 0
+    memberName: GetAssetBundleNames()
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetUnusedAssetBundleNames()
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: RemoveAssetBundleName(string assetBundleName, bool forceRemove)
+    returnType: bool
+  - isStatic: 1
+    memberName: RemoveUnusedAssetBundleNames()
+    returnType: Void
+  - isStatic: 1
+    memberName: GetAssetPathsFromAssetBundle(string assetBundleName)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetAssetPathsFromAssetBundleAndAssetName(string assetBundleName,
+      string assetName)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetImplicitAssetBundleName(string assetPath)
+    returnType: string
+  - isStatic: 1
+    memberName: GetImplicitAssetBundleVariantName(string assetPath)
+    returnType: string
+  - isStatic: 1
+    memberName: GetAssetBundleDependencies(string assetBundleName, bool recursive)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetDependencies(string pathName)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetDependencies(string pathName, bool recursive)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetDependencies(string[] pathNames)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: GetDependencies(string[] pathNames, bool recursive)
+    returnType: 'string[]'
+  - isStatic: 1
+    memberName: ExportPackage(string assetPathName, string fileName)
+    returnType: Void
+  - isStatic: 1
+    memberName: ExportPackage(string assetPathName, string fileName, ExportPackageOptions
+      flags)
+    returnType: Void
+  - isStatic: 1
+    memberName: ExportPackage(string[] assetPathNames, string fileName)
+    returnType: Void
+  - isStatic: 1
+    memberName: ExportPackage(string[] assetPathNames, string fileName, ExportPackageOptions
+      flags)
+    returnType: Void
+  - isStatic: 1
+    memberName: CanOpenForEdit(Object assetObject)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(Object assetObject, StatusQueryOptions statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(string assetOrMetaFilePath)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(string assetOrMetaFilePath, StatusQueryOptions statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(Object assetObject, ref string message)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(Object assetObject, ref string message, StatusQueryOptions
+      statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(string assetOrMetaFilePath, ref string message)
+    returnType: bool
+  - isStatic: 1
+    memberName: CanOpenForEdit(string assetOrMetaFilePath, ref string message, StatusQueryOptions
+      statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(Object assetObject)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(Object assetObject, StatusQueryOptions statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(string assetOrMetaFilePath)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(string assetOrMetaFilePath, StatusQueryOptions statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(Object assetObject, ref string message)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(Object assetObject, ref string message, StatusQueryOptions
+      statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(string assetOrMetaFilePath, ref string message)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsOpenForEdit(string assetOrMetaFilePath, ref string message, StatusQueryOptions
+      statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsMetaFileOpenForEdit(Object assetObject)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsMetaFileOpenForEdit(Object assetObject, StatusQueryOptions statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsMetaFileOpenForEdit(Object assetObject, ref string message)
+    returnType: bool
+  - isStatic: 1
+    memberName: IsMetaFileOpenForEdit(Object assetObject, ref string message, StatusQueryOptions
+      statusOptions)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetBuiltinExtraResource<T>(string path)
+    returnType: T
+  - isStatic: 1
+    memberName: GetBuiltinExtraResource(Type type, string path)
+    returnType: Object
+  - isStatic: 1
+    memberName: ForceReserializeAssets(IEnumerable<string> assetPaths, ForceReserializeAssetsOptions
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: TryGetGUIDAndLocalFileIdentifier(Object obj, ref string guid, ref
+      long localId)
+    returnType: bool
+  - isStatic: 1
+    memberName: TryGetGUIDAndLocalFileIdentifier(int instanceID, ref string guid,
+      ref long localId)
+    returnType: bool
+  - isStatic: 1
+    memberName: TryGetGUIDAndLocalFileIdentifier<T>(LazyLoadReference<T> assetRef,
+      ref string guid, ref long localId)
+    returnType: bool
+  - isStatic: 1
+    memberName: ForceReserializeAssets()
+    returnType: Void
+  - isStatic: 1
+    memberName: RemoveObjectFromAsset(Object objectToRemove)
+    returnType: Void
+  - isStatic: 1
+    memberName: LoadObjectAsync(string assetPath, long localId)
+    returnType: AssetDatabaseLoadOperation
+  - isStatic: 1
+    memberName: ImportPackage(string packagePath, bool interactive)
+    returnType: Void
+  - isStatic: 1
+    memberName: DisallowAutoRefresh()
+    returnType: Void
+  - isStatic: 1
+    memberName: AllowAutoRefresh()
+    returnType: Void
+  - isStatic: 1
+    memberName: ClearImporterOverride(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: IsCacheServerEnabled()
+    returnType: bool
+  - isStatic: 1
+    memberName: SetImporterOverride<T>(string path)
+    returnType: Void
+  - isStatic: 1
+    memberName: GetImporterOverride(string path)
+    returnType: Type
+  - isStatic: 1
+    memberName: GetAvailableImporterTypes(string path)
+    returnType: 'Type[]'
+  - isStatic: 1
+    memberName: GetAvailableImporters(string path)
+    returnType: 'Type[]'
+  - isStatic: 1
+    memberName: GetDefaultImporter(string path)
+    returnType: Type
+  - isStatic: 1
+    memberName: CanConnectToCacheServer(string ip, ushort port)
+    returnType: bool
+  - isStatic: 1
+    memberName: RefreshSettings()
+    returnType: Void
+  - isStatic: 1
+    memberName: addCacheServerConnectionChanged(Action<CacheServerConnectionChangedParameters>
+      value)
+    returnType: Void
+  - isStatic: 1
+    memberName: removeCacheServerConnectionChanged(Action<CacheServerConnectionChangedParameters>
+      value)
+    returnType: Void
+  - isStatic: 1
+    memberName: IsConnectedToCacheServer()
+    returnType: bool
+  - isStatic: 1
+    memberName: ResetCacheServerReconnectTimer()
+    returnType: Void
+  - isStatic: 1
+    memberName: CloseCacheServerConnection()
+    returnType: Void
+  - isStatic: 1
+    memberName: GetCacheServerAddress()
+    returnType: string
+  - isStatic: 1
+    memberName: GetCacheServerPort()
+    returnType: ushort
+  - isStatic: 1
+    memberName: GetCacheServerNamespacePrefix()
+    returnType: string
+  - isStatic: 1
+    memberName: GetCacheServerEnableDownload()
+    returnType: bool
+  - isStatic: 1
+    memberName: GetCacheServerEnableUpload()
+    returnType: bool
+  - isStatic: 1
+    memberName: IsDirectoryMonitoringEnabled()
+    returnType: bool
+  - isStatic: 1
+    memberName: RegisterCustomDependency(string dependency, Hash128 hashOfValue)
+    returnType: Void
+  - isStatic: 1
+    memberName: UnregisterCustomDependencyPrefixFilter(string prefixFilter)
+    returnType: uint
+  - isStatic: 1
+    memberName: IsAssetImportWorkerProcess()
+    returnType: bool
+  - isStatic: 1
+    memberName: GetImporterType(GUID guid)
+    returnType: Type
+  - isStatic: 1
+    memberName: GetImporterTypes(ReadOnlySpan<GUID> guids)
+    returnType: 'Type[]'
+  - isStatic: 1
+    memberName: GetImporterType(string assetPath)
+    returnType: Type
+  - isStatic: 1
+    memberName: GetImporterTypes(string[] paths)
+    returnType: 'Type[]'
+  - isStatic: 1
+    memberName: setActiveRefreshImportMode(AssetDatabase.RefreshImportMode value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setDesiredWorkerCount(int value)
+    returnType: Void
+  - isStatic: 1
+    memberName: ForceToDesiredWorkerCount()
+    returnType: Void
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: GlobalArtifactDependencyVersion
+  - isStatic: 1
+    memberName: GlobalArtifactProcessedVersion
+  - isStatic: 1
+    memberName: ActiveRefreshImportMode
+  - isStatic: 1
+    memberName: DesiredWorkerCount
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: onImportPackageItemsCompleted
+  backendEventDataList:
+  - isStatic: 0
+    memberName: importPackageStarted
+    returnType: 
+  - isStatic: 0
+    memberName: importPackageCompleted
+    returnType: 
+  - isStatic: 0
+    memberName: importPackageCancelled
+    returnType: 
+  - isStatic: 0
+    memberName: importPackageFailed
+    returnType: 
+  - isStatic: 0
+    memberName: cacheServerConnectionChanged
+    returnType: 

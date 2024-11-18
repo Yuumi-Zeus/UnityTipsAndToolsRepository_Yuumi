@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: GUIHelper_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.Utilities.Editor.GUIHelper, Sirenix.Utilities.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: GUIHelper
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: GetBoldDefaultFont()
+    returnType: bool
+  - isStatic: 1
+    memberName: DisplaySmartUpdatingProgressBar(string title, string details, float
+      progress, int updateIntervalByMS, int updateIntervalByCall)
+    returnType: Void
+  - isStatic: 1
+    memberName: DrawLastControlId(string name, int lineNumber)
+    returnType: Void
+  - isStatic: 1
+    memberName: DisplaySmartUpdatingCancellableProgressBar(string title, string details,
+      float progress, int updateIntervalByMS, int updateIntervalByCall)
+    returnType: bool
+  - isStatic: 1
+    memberName: ShouldDisplaySmartCancellableProgressBar(int updateIntervalByMS)
+    returnType: bool
+  - isStatic: 1
+    memberName: DisplaySmartUpdatingCancellableProgressBar(string title, string details,
+      float progress, int updateIntervalByMS)
+    returnType: bool
+  - isStatic: 1
+    memberName: RemoveFocusControl()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginDrawToNothing()
+    returnType: Void
+  - isStatic: 1
+    memberName: EndDrawToNothing()
+    returnType: Void
+  - isStatic: 1
+    memberName: IsDockedWindow(EditorWindow window)
+    returnType: bool
+  - isStatic: 1
+    memberName: GetEditorWindowRect()
+    returnType: Rect
+  - isStatic: 1
+    memberName: OpenInspectorWindow(Object unityObj)
+    returnType: Void
+  - isStatic: 1
+    memberName: setIsBoldLabel(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setBetterLabelWidth(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setBetterContextWidth(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: setActualLabelWidth(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: RequestRepaint()
+    returnType: Void
+  - isStatic: 1
+    memberName: SafeHandleUtilityRepaint()
+    returnType: Void
+  - isStatic: 1
+    memberName: RequestRepaint(int numberOfFramesToRepaint)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginLayoutMeasuring()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginLayoutMeasuring(ref int cursor)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndLayoutMeasuring(int cursor)
+    returnType: Rect
+  - isStatic: 1
+    memberName: EndLayoutMeasuring()
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetCurrentLayoutRect()
+    returnType: Rect
+  - isStatic: 1
+    memberName: GetCurrentLayoutStyle()
+    returnType: GUIStyle
+  - isStatic: 1
+    memberName: GetPlaymodeTint()
+    returnType: Color
+  - isStatic: 1
+    memberName: PushContextWidth(float width)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopContextWidth()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushColor(Color color, bool blendAlpha)
+    returnType: Void
+  - isStatic: 1
+    memberName: TakeGUIScreenshot(Rect rect)
+    returnType: RenderTexture
+  - isStatic: 1
+    memberName: PopColor()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushGUIEnabled(bool enabled)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopGUIEnabled()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushIsDrawingDictionaryKey(bool enabled)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopIsDrawingDictionaryKey()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushHierarchyMode(bool hierarchyMode, bool preserveCurrentLabelWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopHierarchyMode()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushIsBoldLabel(bool isBold)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopIsBoldLabel()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushIndentLevel(int indentLevel)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopIndentLevel()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushContentColor(Color color, bool blendAlpha)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopContentColor()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushLabelColor(Color color)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopLabelColor()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushGUIPositionOffset(Vector2 offset)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopGUIPositionOffset()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushMatrix(Matrix4x4 matrix)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopMatrix()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginIgnoreInput()
+    returnType: Void
+  - isStatic: 1
+    memberName: EndIgnoreInput()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushEventType(EventType eventType)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopEventType()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushLabelWidth(float labelWidth)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopLabelWidth()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushResponsiveVectorComponentFields(bool responsive)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopResponsiveVectorComponentFields()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushFadeGroupDuration(float duration)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopFadeGroupDuration()
+    returnType: Void
+  - isStatic: 1
+    memberName: PushTabPageSlideAnimationDuration(float duration)
+    returnType: Void
+  - isStatic: 1
+    memberName: PopTabPageSlideAnimationDuration()
+    returnType: Void
+  - isStatic: 1
+    memberName: ClearRepaintRequest()
+    returnType: Void
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object key, string name)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object key, int id)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object primaryKey, Object secondaryKey)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object key)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryNullableContext<TValue>(Object key, string name)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryNullableContext<TValue>(Object key, int id)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryNullableContext<TValue>(Object primaryKey, Object secondaryKey)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryNullableContext<TValue>(Object key)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object key, string name, TValue defaultValue)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object key, int id, TValue defaultValue)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object primaryKey, Object secondaryKey,
+      TValue defaultValue)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: GetTemporaryContext<TValue>(Object key, TValue defaultValue)
+    returnType: GUIContext<TValue>
+  - isStatic: 1
+    memberName: TempContent(string t)
+    returnType: GUIContent
+  - isStatic: 1
+    memberName: TempContent(string t, string tooltip)
+    returnType: GUIContent
+  - isStatic: 1
+    memberName: TempContent(Texture image, string tooltip)
+    returnType: GUIContent
+  - isStatic: 1
+    memberName: TempContent(string text, Texture image, string tooltip)
+    returnType: GUIContent
+  - isStatic: 1
+    memberName: IndentRect(Rect rect)
+    returnType: Rect
+  - isStatic: 1
+    memberName: IndentRect(ref Rect rect)
+    returnType: Void
+  - isStatic: 1
+    memberName: PingObject(Object obj)
+    returnType: Void
+  - isStatic: 1
+    memberName: SelectObject(Object obj)
+    returnType: Void
+  - isStatic: 1
+    memberName: '[ext] RepaintIfRequested()'
+    returnType: Void
+  - isStatic: 1
+    memberName: '[ext] RepaintIfRequested()'
+    returnType: Void
+  - isStatic: 1
+    memberName: GetAssetThumbnail(Object obj, Type type, bool preferObjectPreviewOverFileIcon)
+    returnType: Texture2D
+  - isStatic: 1
+    memberName: GetPreviewTexture(Object objectToPreview)
+    returnType: Texture
+  - isStatic: 1
+    memberName: ExitGUI(bool removeFocusControl)
+    returnType: Void
+  - isStatic: 1
+    memberName: '[ext] CalcSize(string text)'
+    returnType: Vector2
+  - isStatic: 1
+    memberName: '[ext] CalcHeight(string text, float width)'
+    returnType: float
+  - isStatic: 1
+    memberName: '[ext] CalcWidth(string text)'
+    returnType: float
+  - isStatic: 1
+    memberName: '[ext] CalcWidth(GUIContent content)'
+    returnType: float
+  - isStatic: 1
+    memberName: '[ext] CalcMinMaxWidth(string text, ref float minWidth, ref float
+      maxWidth)'
+    returnType: Void
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: IsDrawingDictionaryKey
+  - isStatic: 1
+    memberName: IsBoldLabel
+  - isStatic: 1
+    memberName: CurrentWindowBorderSize
+  - isStatic: 1
+    memberName: EditorScreenPointOffset
+  - isStatic: 1
+    memberName: ContextWidth
+  - isStatic: 1
+    memberName: BetterLabelWidth
+  - isStatic: 1
+    memberName: BetterContextWidth
+  - isStatic: 1
+    memberName: CurrentIndentAmount
+  - isStatic: 1
+    memberName: MouseScreenPosition
+  - isStatic: 1
+    memberName: CurrentWindow
+  - isStatic: 1
+    memberName: CurrentWindowHasFocus
+  - isStatic: 1
+    memberName: CurrentWindowInstanceID
+  - isStatic: 1
+    memberName: ActualLabelWidth
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: RepaintRequested
+  backendEventDataList: []

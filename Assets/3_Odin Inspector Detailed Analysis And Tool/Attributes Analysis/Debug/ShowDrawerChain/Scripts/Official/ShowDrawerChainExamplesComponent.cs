@@ -8,7 +8,7 @@ using System;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace _3_Odin_Inspector_Detailed_Analysis_And_Tool.Attributes_Analysis.Debug.ShowDrawerChain.Scripts.Official
+namespace Attributes_Analysis.Debug.ShowDrawerChain.Scripts.Official
 {
     public class ShowDrawerChainExamplesComponent : MonoBehaviour
     {

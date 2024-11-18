@@ -7,7 +7,7 @@ using Sirenix.OdinInspector.Editor;
 using UnityEngine;
 
 #if UNITY_EDITOR
-namespace _3_Odin_Inspector_Detailed_Analysis_And_Tool.Odin_Demos_Analysis.Custom_Attribute_Processors_Analysis.Scripts
+namespace Odin_Demos_Analysis.Custom_Attribute_Processors_Analysis.Scripts
 {
     [TypeInfoBox("This example demonstrates how AttributeProcessors are ordered by priority.")]
     // 这个例子演示了AttributeProcessors是如何按优先级排序的。

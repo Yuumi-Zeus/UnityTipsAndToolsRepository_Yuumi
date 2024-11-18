@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: GUILayout_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Unity Build In
+  assemblyQualifiedName: UnityEngine.GUILayout, UnityEngine.IMGUIModule, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  className: GUILayout
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: Label(Texture image, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(string text, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(GUIContent content, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(Texture image, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Label(GUIContent content, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Texture image, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(string text, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(GUIContent content, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(Texture image, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Box(GUIContent content, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: Button(Texture image, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(string text, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(GUIContent content, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(Texture image, GUIStyle style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Button(GUIContent content, GUIStyle style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Texture image, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(string text, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(GUIContent content, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(Texture image, GUIStyle style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: RepeatButton(GUIContent content, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: TextField(string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string text, int maxLength, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string text, int maxLength, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string password, char maskChar, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string password, char maskChar, int maxLength, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string password, char maskChar, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: PasswordField(string password, char maskChar, int maxLength, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(string text, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(string text, int maxLength, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextArea(string text, int maxLength, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: Toggle(bool value, Texture image, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, string text, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, GUIContent content, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, Texture image, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, string text, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toggle(bool value, GUIContent content, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Toolbar(int selected, string[] texts, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, Texture[] images, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, GUIContent[] contents, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, string[] texts, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, Texture[] images, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, string[] texts, GUIStyle style, GUI.ToolbarButtonSize
+      buttonSize, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, Texture[] images, GUIStyle style, GUI.ToolbarButtonSize
+      buttonSize, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, GUIContent[] contents, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, GUIContent[] contents, GUIStyle style, GUI.ToolbarButtonSize
+      buttonSize, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, GUIContent[] contents, bool[] enabled, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Toolbar(int selected, GUIContent[] contents, bool[] enabled, GUIStyle
+      style, GUI.ToolbarButtonSize buttonSize, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(int selected, string[] texts, int xCount, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(int selected, Texture[] images, int xCount, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(int selected, GUIContent[] content, int xCount, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(int selected, string[] texts, int xCount, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(int selected, Texture[] images, int xCount, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SelectionGrid(int selected, GUIContent[] contents, int xCount, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: HorizontalSlider(float value, float leftValue, float rightValue,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalSlider(float value, float leftValue, float rightValue,
+      GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalSlider(float value, float leftValue, float rightValue, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalSlider(float value, float leftValue, float rightValue, GUIStyle
+      slider, GUIStyle thumb, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalScrollbar(float value, float size, float leftValue, float
+      rightValue, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: HorizontalScrollbar(float value, float size, float leftValue, float
+      rightValue, GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalScrollbar(float value, float size, float topValue, float
+      bottomValue, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: VerticalScrollbar(float value, float size, float topValue, float
+      bottomValue, GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: Space(float pixels)
+    returnType: Void
+  - isStatic: 1
+    memberName: FlexibleSpace()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontal(GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontal(GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontal(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontal(Texture image, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginHorizontal(GUIContent content, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndHorizontal()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVertical(GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVertical(GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVertical(string text, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVertical(Texture image, GUIStyle style, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginVertical(GUIContent content, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndVertical()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, string text)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, Texture image)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, GUIContent content)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, string text, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, Texture image, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginArea(Rect screenRect, GUIContent content, GUIStyle style)
+    returnType: Void
+  - isStatic: 1
+    memberName: EndArea()
+    returnType: Void
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal,
+      bool alwaysShowVertical, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUIStyle horizontalScrollbar,
+      GUIStyle verticalScrollbar, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUIStyle style)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal,
+      bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar,
+      GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal,
+      bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar,
+      GUIStyle background, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: EndScrollView()
+    returnType: Void
+  - isStatic: 1
+    memberName: Window(int id, Rect screenRect, GUI.WindowFunction func, string text,
+      GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect screenRect, GUI.WindowFunction func, Texture
+      image, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect screenRect, GUI.WindowFunction func, GUIContent
+      content, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect screenRect, GUI.WindowFunction func, string text,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect screenRect, GUI.WindowFunction func, Texture
+      image, GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Window(int id, Rect screenRect, GUI.WindowFunction func, GUIContent
+      content, GUIStyle style, GUILayoutOption[] options)
+    returnType: Rect
+  - isStatic: 1
+    memberName: Width(float width)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: MinWidth(float minWidth)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: MaxWidth(float maxWidth)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: Height(float height)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: MinHeight(float minHeight)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: MaxHeight(float maxHeight)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: ExpandWidth(bool expand)
+    returnType: GUILayoutOption
+  - isStatic: 1
+    memberName: ExpandHeight(bool expand)
+    returnType: GUILayoutOption
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList: []
+  backendFieldDataList: []
+  backendEventDataList: []

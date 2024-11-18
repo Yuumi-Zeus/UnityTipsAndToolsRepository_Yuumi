@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: EditorIcons_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.Utilities.Editor.EditorIcons, Sirenix.Utilities.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: EditorIcons
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: Airplane
+  - isStatic: 1
+    memberName: AlertCircle
+  - isStatic: 1
+    memberName: AlertTriangle
+  - isStatic: 1
+    memberName: ArrowDown
+  - isStatic: 1
+    memberName: ArrowLeft
+  - isStatic: 1
+    memberName: ArrowRight
+  - isStatic: 1
+    memberName: ArrowUp
+  - isStatic: 1
+    memberName: Bell
+  - isStatic: 1
+    memberName: Car
+  - isStatic: 1
+    memberName: Char1
+  - isStatic: 1
+    memberName: Char2
+  - isStatic: 1
+    memberName: Char3
+  - isStatic: 1
+    memberName: CharGraph
+  - isStatic: 1
+    memberName: Checkmark
+  - isStatic: 1
+    memberName: Clock
+  - isStatic: 1
+    memberName: Clouds
+  - isStatic: 1
+    memberName: CloudsRainy
+  - isStatic: 1
+    memberName: CloudsRainySunny
+  - isStatic: 1
+    memberName: CloudsRainyThunder
+  - isStatic: 1
+    memberName: CloudsThunder
+  - isStatic: 1
+    memberName: Crosshair
+  - isStatic: 1
+    memberName: Cut
+  - isStatic: 1
+    memberName: DayCalendar
+  - isStatic: 1
+    memberName: Download
+  - isStatic: 1
+    memberName: Eject
+  - isStatic: 1
+    memberName: EyeDropper
+  - isStatic: 1
+    memberName: Female
+  - isStatic: 1
+    memberName: File
+  - isStatic: 1
+    memberName: FileCabinet
+  - isStatic: 1
+    memberName: FinnishBanner
+  - isStatic: 1
+    memberName: Flag
+  - isStatic: 1
+    memberName: FlagFinnish
+  - isStatic: 1
+    memberName: Folder
+  - isStatic: 1
+    memberName: FolderBack
+  - isStatic: 1
+    memberName: GKey
+  - isStatic: 1
+    memberName: Globe
+  - isStatic: 1
+    memberName: GridBlocks
+  - isStatic: 1
+    memberName: GridImageText
+  - isStatic: 1
+    memberName: GridImageTextList
+  - isStatic: 1
+    memberName: GridLayout
+  - isStatic: 1
+    memberName: HamburgerMenu
+  - isStatic: 1
+    memberName: House
+  - isStatic: 1
+    memberName: Image
+  - isStatic: 1
+    memberName: ImageCollection
+  - isStatic: 1
+    memberName: Info
+  - isStatic: 1
+    memberName: Letter
+  - isStatic: 1
+    memberName: LightBulb
+  - isStatic: 1
+    memberName: Link
+  - isStatic: 1
+    memberName: List
+  - isStatic: 1
+    memberName: LoadingBar
+  - isStatic: 1
+    memberName: LockLocked
+  - isStatic: 1
+    memberName: LockUnlocked
+  - isStatic: 1
+    memberName: LockUnloacked
+  - isStatic: 1
+    memberName: MagnifyingGlass
+  - isStatic: 1
+    memberName: Male
+  - isStatic: 1
+    memberName: Marker
+  - isStatic: 1
+    memberName: Maximize
+  - isStatic: 1
+    memberName: Microphone
+  - isStatic: 1
+    memberName: Minimize
+  - isStatic: 1
+    memberName: Minus
+  - isStatic: 1
+    memberName: MobilePhone
+  - isStatic: 1
+    memberName: Money
+  - isStatic: 1
+    memberName: Move
+  - isStatic: 1
+    memberName: MultiUser
+  - isStatic: 1
+    memberName: Next
+  - isStatic: 1
+    memberName: PacmanGhost
+  - isStatic: 1
+    memberName: Paperclip
+  - isStatic: 1
+    memberName: Pause
+  - isStatic: 1
+    memberName: Pen
+  - isStatic: 1
+    memberName: PenAdd
+  - isStatic: 1
+    memberName: PenMinus
+  - isStatic: 1
+    memberName: Play
+  - isStatic: 1
+    memberName: Plus
+  - isStatic: 1
+    memberName: Podium
+  - isStatic: 1
+    memberName: Previous
+  - isStatic: 1
+    memberName: ReceptionSignal
+  - isStatic: 1
+    memberName: Redo
+  - isStatic: 1
+    memberName: Refresh
+  - isStatic: 1
+    memberName: Rotate
+  - isStatic: 1
+    memberName: Ruler
+  - isStatic: 1
+    memberName: RulerRect
+  - isStatic: 1
+    memberName: SettingsCog
+  - isStatic: 1
+    memberName: ShoppingBasket
+  - isStatic: 1
+    memberName: ShoppingCart
+  - isStatic: 1
+    memberName: SingleUser
+  - isStatic: 1
+    memberName: SmartPhone
+  - isStatic: 1
+    memberName: Sound
+  - isStatic: 1
+    memberName: SpeechBubbleRound
+  - isStatic: 1
+    memberName: SpeechBubbleSquare
+  - isStatic: 1
+    memberName: SpeechBubblesRound
+  - isStatic: 1
+    memberName: SpeechBubblesSquare
+  - isStatic: 1
+    memberName: StarPointer
+  - isStatic: 1
+    memberName: Stop
+  - isStatic: 1
+    memberName: Stretch
+  - isStatic: 1
+    memberName: Table
+  - isStatic: 1
+    memberName: Tag
+  - isStatic: 1
+    memberName: TestTube
+  - isStatic: 1
+    memberName: Timer
+  - isStatic: 1
+    memberName: TrafficStopLight
+  - isStatic: 1
+    memberName: Transparent
+  - isStatic: 1
+    memberName: Tree
+  - isStatic: 1
+    memberName: TriangleDown
+  - isStatic: 1
+    memberName: TriangleLeft
+  - isStatic: 1
+    memberName: TriangleRight
+  - isStatic: 1
+    memberName: TriangleUp
+  - isStatic: 1
+    memberName: Undo
+  - isStatic: 1
+    memberName: Upload
+  - isStatic: 1
+    memberName: WifiSignal
+  - isStatic: 1
+    memberName: X
+  - isStatic: 1
+    memberName: TestInconclusive
+  - isStatic: 1
+    memberName: TestFailed
+  - isStatic: 1
+    memberName: TestNormal
+  - isStatic: 1
+    memberName: TestPassed
+  - isStatic: 1
+    memberName: ConsoleInfoIcon
+  - isStatic: 1
+    memberName: ConsoleWarnicon
+  - isStatic: 1
+    memberName: ConsoleErroricon
+  - isStatic: 1
+    memberName: OdinInspectorLogo
+  - isStatic: 1
+    memberName: UnityLogo
+  - isStatic: 1
+    memberName: UnityGameObjectIcon
+  - isStatic: 1
+    memberName: UnityInfoIcon
+  - isStatic: 1
+    memberName: UnityWarningIcon
+  - isStatic: 1
+    memberName: UnityErrorIcon
+  - isStatic: 1
+    memberName: UnityFolderIcon
+  - isStatic: 1
+    memberName: ObjectFieldButtonDark
+  - isStatic: 1
+    memberName: ObjectFieldButtonLight
+  - isStatic: 1
+    memberName: ObjectFieldButton
+  backendFieldDataList: []
+  backendEventDataList: []

@@ -1,0 +1,22 @@
+﻿using UnityEditor;
+
+namespace #NAMESPACE#
+{
+    [CustomEditor(typeof(/* 自定义绘制目标类型 */))]
+    public class #CLASSNAME# : Sirenix.OdinInspector.Editor.OdinEditor
+    {
+        protected override void OnEnable()
+        {
+            base.OnEnable();
+            // 此处初始化序列化属性      
+        }
+        
+        public override void OnInspectorGUI()
+        {
+            // base.OnInspectorGUI();
+            serializedObject.Update(); // 在绘制之前，更新序列化对象，以确保最新的数据
+            // 此处绘制自定义 Inspector
+            serializedObject.ApplyModifiedProperties(); // 在绘制结束后，应用序列化对象，以确保修改生效
+        }
+    }
+}

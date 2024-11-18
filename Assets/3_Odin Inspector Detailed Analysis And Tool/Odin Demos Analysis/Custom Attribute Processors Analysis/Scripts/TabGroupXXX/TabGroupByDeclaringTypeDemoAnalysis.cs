@@ -6,7 +6,7 @@ using Sirenix.OdinInspector.Editor;
 using Sirenix.Utilities;
 using Object = UnityEngine.Object;
 
-namespace _3_Odin_Inspector_Detailed_Analysis_And_Tool.Odin_Demos_Analysis.Custom_Attribute_Processors_Analysis.Scripts
+namespace Odin_Demos_Analysis.Custom_Attribute_Processors_Analysis.Scripts
 {
 #if UNITY_EDITOR
     [TypeInfoBox(

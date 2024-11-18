@@ -1,0 +1,37 @@
+﻿// * Zeus Framework - DevToolkit - Example 示例生成器一键生成
+// * Author: Zeus
+
+using OdinExtension.DevToolkit;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+namespace #NAMESPACE#
+{
+    /// <summary>
+    /// 关键点: <br />
+    /// 1.XXX
+    /// </summary>
+    public class #CLASSNAME# : ZeusExampleMonoBehaviour
+    {
+        #region 抽象类实现
+
+        protected override void CustomGUIUseGUILayout() { }
+
+        protected override string SetUsageTip()
+        {
+            return "案例说明: XXX";
+        }
+
+        #endregion
+
+        void Start()
+        {
+#if UNITY_EDITOR
+            Selection.activeGameObject = gameObject;
+#endif
+        }
+
+        void Update() { }
+    }
+}

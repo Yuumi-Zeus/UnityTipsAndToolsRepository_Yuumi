@@ -1,0 +1,1540 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: SirenixEditorFields_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.Utilities.Editor.SirenixEditorFields, Sirenix.Utilities.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: SirenixEditorFields
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 1
+    memberName: setResponsiveVectorComponentFields(bool value)
+    returnType: Void
+  - isStatic: 1
+    memberName: UnityObjectField(Rect rect, GUIContent label, Object value, Type
+      objectType, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityObjectField(Rect rect, string label, Object value, Type objectType,
+      bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityObjectField(Rect rect, Object value, Type objectType, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityObjectField(GUIContent label, Object value, Type objectType,
+      bool allowSceneObjects, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityObjectField(string label, Object value, Type objectType, bool
+      allowSceneObjects, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityObjectField(Object value, Type objectType, bool allowSceneObjects,
+      GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: PreviewObjectField<TElement>(Rect rect, TElement value, bool dragOnly,
+      bool allowMove, bool allowSwap, bool allowSceneObjects)
+    returnType: TElement
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, Object value, Texture texture,
+      Type type, bool dragOnly, bool allowMove, bool allowSwap, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, GUIContent label, Object value,
+      Type type, ObjectFieldAlignment alignment, bool dragOnly, bool allowMove, bool
+      allowSwap, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, GUIContent label, Object value,
+      Texture preview, Type type, ObjectFieldAlignment alignment, bool dragOnly,
+      bool allowMove, bool allowSwap, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, Object value, Type type, bool
+      dragOnly, bool allowMove, bool allowSwap, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, GUIContent label, Object value,
+      Type objectType, bool allowSceneObjects, ObjectFieldAlignment alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, GUIContent label, Object value,
+      Texture preview, Type objectType, bool allowSceneObjects, ObjectFieldAlignment
+      alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, string label, Object value, Type
+      objectType, bool allowSceneObjects, ObjectFieldAlignment alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Rect rect, Object value, Type objectType,
+      bool allowSceneObjects, ObjectFieldAlignment alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(GUIContent label, Object value, Type objectType,
+      bool allowSceneObjects, float height, ObjectFieldAlignment alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(GUIContent label, Object value, Texture preview,
+      Type objectType, bool allowSceneObjects, float height, ObjectFieldAlignment
+      alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(string label, Object value, Type objectType,
+      bool allowSceneObjects, float height, ObjectFieldAlignment alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: UnityPreviewObjectField(Object value, Type objectType, bool allowSceneObjects,
+      float height, ObjectFieldAlignment alignment)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(GUIContent label, Object value, Type type,
+      bool allowSceneObjects, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(GUIContent label, Object value, Type type,
+      string title, bool allowSceneObjects, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(Rect rect, GUIContent label, Object value,
+      Type type, bool allowSceneObjects)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(Rect rect, Object value, Type type, bool allowSceneObjects,
+      bool hasKeyboardFocus, int id)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(Rect rect, Object value, Type type, string
+      title, bool allowSceneObjects, bool hasKeyboardFocus, int id)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(string label, Object value, Type type, bool
+      allowSceneObjects, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(Object value, Type type, bool allowSceneObjects,
+      GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: PolymorphicObjectField(Object value, Type type, string title, bool
+      allowSceneObjects, GUILayoutOption[] options)
+    returnType: Object
+  - isStatic: 1
+    memberName: LayerMaskField(Rect rect, GUIContent label, LayerMask layerMask)
+    returnType: LayerMask
+  - isStatic: 1
+    memberName: LayerMaskField(Rect rect, string label, LayerMask layerMask)
+    returnType: LayerMask
+  - isStatic: 1
+    memberName: LayerMaskField(Rect rect, LayerMask layerMask)
+    returnType: LayerMask
+  - isStatic: 1
+    memberName: LayerMaskField(GUIContent label, LayerMask layerMask, GUILayoutOption[]
+      options)
+    returnType: LayerMask
+  - isStatic: 1
+    memberName: LayerMaskField(string label, LayerMask layerMask, GUILayoutOption[]
+      options)
+    returnType: LayerMask
+  - isStatic: 1
+    memberName: LayerMaskField(LayerMask layerMask, GUILayoutOption[] options)
+    returnType: LayerMask
+  - isStatic: 1
+    memberName: GuidField(Rect rect, GUIContent label, Guid value)
+    returnType: Guid
+  - isStatic: 1
+    memberName: GuidField(Rect rect, Guid value)
+    returnType: Guid
+  - isStatic: 1
+    memberName: GuidField(GUIContent label, Guid value)
+    returnType: Guid
+  - isStatic: 1
+    memberName: GuidField(GUIContent label, Guid value, GUILayoutOption[] options)
+    returnType: Guid
+  - isStatic: 1
+    memberName: GuidField(GUIContent label, Guid value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Guid
+  - isStatic: 1
+    memberName: GuidField(Rect rect, GUIContent label, Guid value, GUIStyle style)
+    returnType: Guid
+  - isStatic: 1
+    memberName: IntField(Rect rect, GUIContent label, int value, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(Rect rect, GUIContent label, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(Rect rect, string label, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(Rect rect, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(GUIContent label, int value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(GUIContent label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(string label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntField(int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(Rect rect, GUIContent label, int value, GUIStyle
+      style)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(Rect rect, GUIContent label, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(Rect rect, string label, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(Rect rect, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(GUIContent label, int value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(GUIContent label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(string label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: DelayedIntField(int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(Rect rect, GUIContent label, int value, int min, int
+      max, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(Rect rect, GUIContent label, int value, int min, int
+      max)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(Rect rect, string label, int value, int min, int max)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(Rect rect, int value, int min, int max)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(GUIContent label, int value, int min, int max, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(GUIContent label, int value, int min, int max, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(string label, int value, int min, int max, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: RangeIntField(int value, int min, int max, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, GUIContent label, double value, double
+      minValue, double maxValue, ProgressBarConfig config, string valueLabel)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, GUIContent label, double value, double
+      minValue, double maxValue, ProgressBarConfig config)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, string label, double value, double minValue,
+      double maxValue, ProgressBarConfig config)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, double value, double minValue, double
+      maxValue, ProgressBarConfig config)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, GUIContent label, double value, double
+      minValue, double maxValue)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, string label, double value, double minValue,
+      double maxValue)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(Rect rect, double value, double minValue, double
+      maxValue)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(GUIContent label, double value, double minValue,
+      double maxValue, ProgressBarConfig config, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(string label, double value, double minValue, double
+      maxValue, ProgressBarConfig config, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(double value, double minValue, double maxValue,
+      ProgressBarConfig config, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(GUIContent label, double value, double minValue,
+      double maxValue, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(string label, double value, double minValue, double
+      maxValue, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: ProgressBarField(double value, double minValue, double maxValue,
+      GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, GUIContent label, long value,
+      long minValue, long maxValue, ProgressBarConfig config, string valueLabel)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, GUIContent label, long value,
+      long minValue, long maxValue, ProgressBarConfig config)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, string label, long value, long
+      minValue, long maxValue, ProgressBarConfig config)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, long value, long minValue, long
+      maxValue, ProgressBarConfig config)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, GUIContent label, long value,
+      long minValue, long maxValue)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, string label, long value, long
+      minValue, long maxValue)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(Rect rect, long value, long minValue, long
+      maxValue)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(GUIContent label, long value, long minValue,
+      long maxValue, ProgressBarConfig config, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(string label, long value, long minValue,
+      long maxValue, ProgressBarConfig config, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(long value, long minValue, long maxValue,
+      ProgressBarConfig config, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(GUIContent label, long value, long minValue,
+      long maxValue, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(string label, long value, long minValue,
+      long maxValue, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SegmentedProgressBarField(long value, long minValue, long maxValue,
+      GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: ProgressBarOverlayLabel(Rect rect, GUIContent label, float progress,
+      ProgressBarConfig config)
+    returnType: Void
+  - isStatic: 1
+    memberName: LongField(Rect rect, GUIContent label, long value, GUIStyle style)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(Rect rect, GUIContent label, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(Rect rect, string label, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(Rect rect, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(GUIContent label, long value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(GUIContent label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(string label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongField(long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(Rect rect, GUIContent label, long value, GUIStyle
+      style)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(Rect rect, GUIContent label, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(Rect rect, string label, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(Rect rect, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(GUIContent label, long value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(GUIContent label, long value, GUILayoutOption[]
+      options)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(string label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: DelayedLongField(long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: FloatField(Rect rect, GUIContent label, float value, GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(Rect rect, GUIContent label, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(Rect rect, string label, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(Rect rect, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(GUIContent label, float value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(GUIContent label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(string label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatField(float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(Rect rect, GUIContent label, float value, GUIStyle
+      style)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(Rect rect, GUIContent label, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(Rect rect, string label, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(Rect rect, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(GUIContent label, float value, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(GUIContent label, float value, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(string label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DelayedFloatField(float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(Rect rect, GUIContent label, float value, float min,
+      float max, GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(Rect rect, GUIContent label, float value, float min,
+      float max)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(Rect rect, string label, float value, float min,
+      float max)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(Rect rect, float value, float min, float max)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(GUIContent label, float value, float min, float max,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(GUIContent label, float value, float min, float max,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(string label, float value, float min, float max,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: RangeFloatField(float value, float min, float max, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: DoubleField(Rect rect, GUIContent label, double value, GUIStyle style)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(Rect rect, GUIContent label, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(Rect rect, string label, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(Rect rect, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(GUIContent label, double value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(GUIContent label, double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(string label, double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleField(double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(Rect rect, GUIContent label, double value, GUIStyle
+      style)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(Rect rect, GUIContent label, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(Rect rect, string label, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(Rect rect, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(GUIContent label, double value, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(GUIContent label, double value, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(string label, double value, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: DelayedDoubleField(double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DecimalField(Rect rect, GUIContent label, decimal value, GUIStyle
+      style)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(Rect rect, GUIContent label, decimal value)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(Rect rect, string label, decimal value)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(Rect rect, decimal value)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(GUIContent label, decimal value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(GUIContent label, decimal value, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(string label, decimal value, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalField(decimal value, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: TextField(Rect rect, GUIContent label, string value, GUIStyle style)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(Rect rect, GUIContent label, string value)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(Rect rect, string label, string value)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(Rect rect, string value)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(GUIContent label, string value, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(GUIContent label, string value, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string label, string value, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: TextField(string value, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(Rect rect, GUIContent label, string value, GUIStyle
+      style)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(Rect rect, GUIContent label, string value)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(Rect rect, string label, string value)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(Rect rect, string value)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(GUIContent label, string value, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(GUIContent label, string value, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(string label, string value, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: DelayedTextField(string value, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: FilePathField(Rect rect, GUIContent label, string path, string parentPath,
+      string extensions, bool absolutePath, bool useBackslashes, bool includeFileExtension)
+    returnType: string
+  - isStatic: 1
+    memberName: FilePathField(Rect rect, string path, string parentPath, string extensions,
+      bool absolutePath, bool useBackslashes, bool includeFileExtension)
+    returnType: string
+  - isStatic: 1
+    memberName: FilePathField(GUIContent label, string path, string parentPath, string
+      extensions, bool absolutePath, bool useBackslashes, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: FilePathField(GUIContent label, string path, string parentPath, string
+      extensions, bool absolutePath, bool useBackslashes, bool includeFileExtension,
+      GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: FilePathField(string path, string parentPath, string extensions,
+      bool absolutePath, bool useBackslashes, bool includeFileExtension, GUILayoutOption[]
+      options)
+    returnType: string
+  - isStatic: 1
+    memberName: FilePathField(string path, string parentPath, string extensions,
+      bool absolutePath, bool useBackslashes, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: FolderPathField(Rect rect, GUIContent label, string path, string
+      parentPath, bool absolutePath, bool useBackslashes)
+    returnType: string
+  - isStatic: 1
+    memberName: FolderPathField(Rect rect, string path, string parentPath, bool absolutePath,
+      bool useBackslashes)
+    returnType: string
+  - isStatic: 1
+    memberName: FolderPathField(GUIContent label, string path, string parentPath,
+      bool absolutePath, bool useBackslashes, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: FolderPathField(string path, string parentPath, bool absolutePath,
+      bool useBackslashes, GUILayoutOption[] options)
+    returnType: string
+  - isStatic: 1
+    memberName: VectorPrefixSlideRect(Rect rect, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: VectorPrefixLabel(ref Rect totalRect, GUIContent label, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: VectorPrefixLabel(ref Rect totalRect, string label, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: VectorPrefixLabel(GUIContent label, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: VectorPrefixLabel(string label, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector2Field(Rect rect, GUIContent label, Vector2 value)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector2Field(Rect rect, string label, Vector2 value)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector2Field(Rect rect, Vector2 value)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector2Field(GUIContent label, Vector2 value, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector2Field(string label, Vector2 value, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector2Field(Vector2 value, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: Vector3Field(Rect rect, GUIContent label, Vector3 value)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector3Field(Rect rect, string label, Vector3 value)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector3Field(Rect rect, Vector3 value)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector3Field(GUIContent label, Vector3 value, GUILayoutOption[] options)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector3Field(string label, Vector3 value, GUILayoutOption[] options)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector3Field(Vector3 value, GUILayoutOption[] options)
+    returnType: Vector3
+  - isStatic: 1
+    memberName: Vector4Field(Rect rect, GUIContent label, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector4Field(Rect rect, string label, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector4Field(Rect rect, Vector4 value)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector4Field(GUIContent label, Vector4 value, GUILayoutOption[] options)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector4Field(string label, Vector4 value, GUILayoutOption[] options)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: Vector4Field(Vector4 value, GUILayoutOption[] options)
+    returnType: Vector4
+  - isStatic: 1
+    memberName: ColorField(Rect rect, GUIContent label, Color value)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(Rect rect, string label, Color value)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(Rect rect, Color value)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(GUIContent label, Color value, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(string label, Color value, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: ColorField(Color value, GUILayoutOption[] options)
+    returnType: Color
+  - isStatic: 1
+    memberName: MinMaxSlider(Rect rect, GUIContent label, Vector2 value, Vector2
+      limits, bool showFields)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: MinMaxSlider(Rect rect, string label, Vector2 value, Vector2 limits,
+      bool showFields)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: MinMaxSlider(Rect rect, Vector2 value, Vector2 limits, bool showFields)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: MinMaxSlider(GUIContent label, Vector2 value, Vector2 limits, bool
+      showFields, GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: MinMaxSlider(string label, Vector2 value, Vector2 limits, bool showFields,
+      GUILayoutOption[] options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: MinMaxSlider(Vector2 value, Vector2 limits, bool showFields, GUILayoutOption[]
+      options)
+    returnType: Vector2
+  - isStatic: 1
+    memberName: MinMaxSlider(Rect rect, GUIContent label, ref float minValue, ref
+      float maxValue, float minLimit, float maxLimit, bool showFields)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(Rect rect, string label, ref float minValue, ref float
+      maxValue, float minLimit, float maxLimit, bool showFields)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(Rect rect, ref float minValue, ref float maxValue, float
+      minLimit, float maxLimit, bool showFields)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(GUIContent label, ref float minValue, ref float maxValue,
+      float minLimit, float maxLimit, bool showFields, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(string label, ref float minValue, ref float maxValue,
+      float minLimit, float maxLimit, bool showFields, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: MinMaxSlider(ref float minValue, ref float maxValue, float minLimit,
+      float maxLimit, bool showFields, GUILayoutOption[] options)
+    returnType: Void
+  - isStatic: 1
+    memberName: RotationField(Rect rect, GUIContent label, Quaternion value, QuaternionDrawMode
+      mode)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: RotationField(Rect rect, string label, Quaternion value, QuaternionDrawMode
+      mode)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: RotationField(Rect rect, Quaternion value, QuaternionDrawMode mode)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: RotationField(GUIContent label, Quaternion value, QuaternionDrawMode
+      mode, GUILayoutOption[] options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: RotationField(string label, Quaternion value, QuaternionDrawMode
+      mode, GUILayoutOption[] options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: RotationField(Quaternion value, QuaternionDrawMode mode, GUILayoutOption[]
+      options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: EulerField(Rect rect, GUIContent label, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: EulerField(Rect rect, string label, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: EulerField(Rect rect, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: EulerField(GUIContent label, Quaternion value, GUILayoutOption[]
+      options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: EulerField(string label, Quaternion value, GUILayoutOption[] options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: EulerField(Quaternion value, GUILayoutOption[] options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: AngleAxisField(Rect rect, GUIContent label, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: AngleAxisField(Rect rect, string label, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: AngleAxisField(Rect rect, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: AngleAxisField(GUIContent label, Quaternion value, GUILayoutOption[]
+      options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: AngleAxisField(string label, Quaternion value, GUILayoutOption[]
+      options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: AngleAxisField(Quaternion value, GUILayoutOption[] options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: QuaternionField(Rect rect, GUIContent label, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: QuaternionField(Rect rect, string label, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: QuaternionField(Rect rect, Quaternion value)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: QuaternionField(GUIContent label, Quaternion value, GUILayoutOption[]
+      options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: QuaternionField(string label, Quaternion value, GUILayoutOption[]
+      options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: QuaternionField(Quaternion value, GUILayoutOption[] options)
+    returnType: Quaternion
+  - isStatic: 1
+    memberName: Dropdown(Rect rect, GUIContent label, int selected, string[] itemNames,
+      GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(Rect rect, GUIContent label, int selected, string[] itemNames)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(Rect rect, string label, int selected, string[] itemNames)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(Rect rect, int selected, string[] itemNames)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(GUIContent label, int selected, string[] itemNames, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(GUIContent label, int selected, string[] itemNames, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(string label, int selected, string[] itemNames, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown(int selected, string[] itemNames, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, GUIContent label, T selected, IList<T> items)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(GUIContent label, T selected, IList<T> items)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, GUIContent label, T selected, T[] items, string[]
+      itemNames, GUIStyle style)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, GUIContent label, T selected, T[] items, string[]
+      itemNames)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, string label, T selected, T[] items, string[]
+      itemNames)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, T selected, T[] items, string[] itemNames)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(GUIContent label, T selected, T[] items, string[] itemNames,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(GUIContent label, T selected, T[] items, string[] itemNames,
+      GUILayoutOption[] options)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(string label, T selected, T[] items, string[] itemNames,
+      GUILayoutOption[] options)
+    returnType: T
+  - isStatic: 1
+    memberName: Dropdown<T>(T selected, T[] items, string[] itemNames, GUILayoutOption[]
+      options)
+    returnType: T
+  - isStatic: 1
+    memberName: EnumDropdown(Rect rect, GUIContent label, Enum selected, GUIStyle
+      style)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(Rect rect, GUIContent label, Enum selected)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(Rect rect, string label, Enum selected)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(Rect rect, Enum selected)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(GUIContent label, Enum selected, GUIStyle style, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(GUIContent label, Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(string label, Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumDropdown(Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, GUIContent label, IList<int> selected, IList<T>
+      items, bool multiSelection)
+    returnType: bool
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, string label, IList<int> selected, IList<T>
+      items, bool multiSelection)
+    returnType: bool
+  - isStatic: 1
+    memberName: Dropdown<T>(Rect rect, IList<int> selected, IList<T> items, bool
+      multiSelection)
+    returnType: bool
+  - isStatic: 1
+    memberName: Dropdown<T>(GUIContent label, IList<int> selected, IList<T> items,
+      bool multiSelection, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Dropdown<T>(string label, IList<int> selected, IList<T> items, bool
+      multiSelection, GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: Dropdown<T>(IList<int> selected, IList<T> items, bool multiSelection,
+      GUILayoutOption[] options)
+    returnType: bool
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, decimal value, GUIStyle style)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, Rect
+      rect, string label, decimal value)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, Rect
+      rect, decimal value)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, GUIContent
+      label, decimal value, GUIStyle style, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, GUIContent
+      label, decimal value, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, string
+      label, decimal value, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalField(ref FieldExpressionContext expressionContext, decimal
+      value, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, double value, GUIStyle style)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, Rect
+      rect, string label, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, Rect
+      rect, double value)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, GUIContent
+      label, double value, GUIStyle style, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, GUIContent
+      label, double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, string
+      label, double value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleField(ref FieldExpressionContext expressionContext, double
+      value, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, float value, GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, Rect
+      rect, string label, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, Rect
+      rect, float value)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, GUIContent
+      label, float value, GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, GUIContent
+      label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, string
+      label, float value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatField(ref FieldExpressionContext expressionContext, float
+      value, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, long value, GUIStyle style)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, Rect
+      rect, string label, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, Rect
+      rect, long value)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, GUIContent
+      label, long value, GUIStyle style, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, GUIContent
+      label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, string
+      label, long value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongField(ref FieldExpressionContext expressionContext, long
+      value, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, int value, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, Rect
+      rect, string label, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, Rect
+      rect, int value)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, GUIContent
+      label, int value, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, GUIContent
+      label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, string
+      label, int value, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntField(ref FieldExpressionContext expressionContext, int value,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, decimal value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo, GUIStyle style)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, decimal value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, string label, decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      string label, decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDecimalUnitField(ref FieldExpressionContext expressionContext,
+      decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[]
+      options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(Rect rect, GUIContent label, decimal value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo, GUIStyle style)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(Rect rect, GUIContent label, decimal value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(Rect rect, string label, decimal value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(Rect rect, decimal value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(GUIContent label, decimal value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(GUIContent label, decimal value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(string label, decimal value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: DecimalUnitField(decimal value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: decimal
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, double value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo, GUIStyle style)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, double value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, string label, double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      string label, double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartDoubleUnitField(ref FieldExpressionContext expressionContext,
+      double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[]
+      options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, string label, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      string label, float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: SmartFloatUnitField(ref FieldExpressionContext expressionContext,
+      float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[]
+      options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(Rect rect, GUIContent label, float value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo, GUIStyle style)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(Rect rect, GUIContent label, float value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(Rect rect, string label, float value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(Rect rect, float value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(GUIContent label, float value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(GUIContent label, float value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(string label, float value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: FloatUnitField(float value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: float
+  - isStatic: 1
+    memberName: DoubleUnitField(Rect rect, GUIContent label, double value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo, GUIStyle style)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(Rect rect, GUIContent label, double value, UnitInfo
+      baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(Rect rect, string label, double value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(Rect rect, double value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(GUIContent label, double value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(GUIContent label, double value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(string label, double value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: DoubleUnitField(double value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: double
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, GUIContent label, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, string label, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      Rect rect, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      GUIContent label, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      string label, long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartLongUnitField(ref FieldExpressionContext expressionContext,
+      long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[]
+      options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(Rect rect, GUIContent label, long value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(Rect rect, GUIContent label, long value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(Rect rect, string label, long value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(Rect rect, long value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(GUIContent label, long value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(GUIContent label, long value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(string label, long value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo, GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: LongUnitField(long value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: long
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, Rect
+      rect, GUIContent label, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, Rect
+      rect, string label, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, Rect
+      rect, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, GUIContent
+      label, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUIStyle
+      style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, GUIContent
+      label, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, string
+      label, int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[]
+      options)
+    returnType: int
+  - isStatic: 1
+    memberName: SmartIntUnitField(ref FieldExpressionContext expressionContext, int
+      value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(Rect rect, GUIContent label, int value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(Rect rect, GUIContent label, int value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(Rect rect, string label, int value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(Rect rect, int value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(GUIContent label, int value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUIStyle style, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(GUIContent label, int value, UnitInfo baseUnitInfo,
+      UnitInfo displayUnitInfo, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(string label, int value, UnitInfo baseUnitInfo, UnitInfo
+      displayUnitInfo, GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: IntUnitField(int value, UnitInfo baseUnitInfo, UnitInfo displayUnitInfo,
+      GUILayoutOption[] options)
+    returnType: int
+  - isStatic: 1
+    memberName: EnumMaskDropdown(Rect rect, GUIContent label, Enum selected, GUIStyle
+      style)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(Rect rect, GUIContent label, Enum selected)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(Rect rect, string label, Enum selected)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(Rect rect, Enum selected)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(GUIContent label, Enum selected, GUIStyle style,
+      GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(GUIContent label, Enum selected, GUILayoutOption[]
+      options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(string label, Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 1
+    memberName: EnumMaskDropdown(Enum selected, GUILayoutOption[] options)
+    returnType: Enum
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 1
+    memberName: ResponsiveVectorComponentFields
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: UnitFieldFormatStringFloat
+  - isStatic: 1
+    memberName: UnitFieldFormatStringDouble
+  - isStatic: 1
+    memberName: UnitFieldFormatStringDecimal
+  - isStatic: 1
+    memberName: UnitFieldFormatStringInteger
+  - isStatic: 1
+    memberName: SingleLetterStructLabelWidth
+  backendEventDataList: []
